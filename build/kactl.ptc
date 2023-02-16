@@ -259,7 +259,13 @@
 \contentsline {subsection}{\texttt {kruskal.h}\hspace {0.2em}}{26}{subsection.11.5.1}%
 \contentsline {subsection}{\numberline {11.5.2}Min Spanning Subgraph}{26}{subsection.11.5.2}%
 \contentsline {subsection}{\texttt {mss.h}\hspace {0.2em}}{26}{subsection.11.5.2}%
+\contentsline {subsection}{\numberline {11.5.3}Second-Best Spanning Tree}{26}{subsection.11.5.3}%
+\contentsline {subsection}{\texttt {sbst.h}\hspace {0.2em}}{26}{subsection.11.5.3}%
 \contentsline {section}{\numberline {11.6}Math Related}{26}{section.11.6}%
+\contentsline {subsection}{\numberline {11.6.1}Prime Check}{26}{subsection.11.6.1}%
+\contentsline {subsection}{\texttt {isPrime.h}\hspace {0.2em}}{26}{subsection.11.6.1}%
+\contentsline {subsection}{\numberline {11.6.2}Sieve of Eratosthenes}{26}{subsection.11.6.2}%
+\contentsline {subsection}{\texttt {sieve.h}\hspace {0.2em}}{26}{subsection.11.6.2}%
 \ttl@stoptoc {chapters@11}
 \ttl@starttoc {chapters@12}
 \contentsfinish 

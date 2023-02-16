@@ -2,7 +2,7 @@
  * Author: Simon Lindholm
  * Date: 2018-07-15
  * License: CC0
- * Source: Wikipedia
+ * Source: VNOI
  * Description: 0-1 BFS, find shortest path in 0-1 weighted graph. App: find the minimum of edges that is needed to be reversed in direction to make the path 1->N possible
  * Time: better than Dijkstra
  * Status: 
