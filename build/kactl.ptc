@@ -239,17 +239,27 @@
 \ttl@starttoc {chapters@11}
 \contentsline {section}{\numberline {11.1}SegmentTree}{24}{section.11.1}%
 \contentsline {subsection}{\texttt {lazysegtree.h}\hspace {0.2em}}{24}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Bitwise}{24}{section.11.2}%
-\contentsline {subsection}{\texttt {bitwise.h}\hspace {0.2em}}{24}{section.11.2}%
-\contentsline {section}{\numberline {11.3}Shortest Path}{25}{section.11.3}%
-\contentsline {subsection}{\numberline {11.3.1}Dijkstra}{25}{subsection.11.3.1}%
-\contentsline {subsection}{\texttt {dijkstra.h}\hspace {0.2em}}{25}{subsection.11.3.1}%
-\contentsline {subsection}{\numberline {11.3.2}Bellman-Ford}{25}{subsection.11.3.2}%
-\contentsline {subsection}{\texttt {bellmanford.h}\hspace {0.2em}}{25}{subsection.11.3.2}%
-\contentsline {subsection}{\numberline {11.3.3}Floyd Warshall}{25}{subsection.11.3.3}%
-\contentsline {subsection}{\texttt {floyd-warshall.h}\hspace {0.2em}}{25}{subsection.11.3.3}%
-\contentsline {subsection}{\numberline {11.3.4}Trace path}{25}{subsection.11.3.4}%
-\contentsline {subsection}{\texttt {tracepath.h}\hspace {0.2em}}{25}{subsection.11.3.4}%
+\contentsline {section}{\numberline {11.2}FenwickTree}{24}{section.11.2}%
+\contentsline {subsection}{\texttt {lazysegtree.h}\hspace {0.2em}}{24}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Bitwise}{25}{section.11.3}%
+\contentsline {subsection}{\texttt {bitwise.h}\hspace {0.2em}}{25}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Shortest Path}{25}{section.11.4}%
+\contentsline {subsection}{\numberline {11.4.1}Dijkstra}{25}{subsection.11.4.1}%
+\contentsline {subsection}{\texttt {dijkstra.h}\hspace {0.2em}}{25}{subsection.11.4.1}%
+\contentsline {subsection}{\numberline {11.4.2}Bellman-Ford}{25}{subsection.11.4.2}%
+\contentsline {subsection}{\texttt {bellmanford.h}\hspace {0.2em}}{25}{subsection.11.4.2}%
+\contentsline {subsection}{\numberline {11.4.3}Floyd Warshall}{25}{subsection.11.4.3}%
+\contentsline {subsection}{\texttt {floyd-warshall.h}\hspace {0.2em}}{25}{subsection.11.4.3}%
+\contentsline {subsection}{\numberline {11.4.4}Trace path}{26}{subsection.11.4.4}%
+\contentsline {subsection}{\texttt {tracepath.h}\hspace {0.2em}}{26}{subsection.11.4.4}%
+\contentsline {subsection}{\numberline {11.4.5}0-1 BFS}{26}{subsection.11.4.5}%
+\contentsline {subsection}{\texttt {0-1BFS.h}\hspace {0.2em}}{26}{subsection.11.4.5}%
+\contentsline {section}{\numberline {11.5}Min Spanning Tree}{26}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}Kruskal}{26}{subsection.11.5.1}%
+\contentsline {subsection}{\texttt {kruskal.h}\hspace {0.2em}}{26}{subsection.11.5.1}%
+\contentsline {subsection}{\numberline {11.5.2}Min Spanning Subgraph}{26}{subsection.11.5.2}%
+\contentsline {subsection}{\texttt {mss.h}\hspace {0.2em}}{26}{subsection.11.5.2}%
+\contentsline {section}{\numberline {11.6}Math Related}{26}{section.11.6}%
 \ttl@stoptoc {chapters@11}
 \ttl@starttoc {chapters@12}
 \contentsfinish 
