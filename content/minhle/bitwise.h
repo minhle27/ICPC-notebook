@@ -33,7 +33,7 @@ S = 42 (base 10) = 101010 (base 2) // update S to this new value 42
 */
 
 /*
-4) To check if the j-th item of the set is on,
+3) To check if the j-th item of the set is on,
 use the bitwise AND operation T = S & (1<<j).
 If T=0, then the j-th item of the set is off.
 If T != 0 (to be precise, T = (1<<j)), then the j-th item of the set is on.
@@ -44,3 +44,48 @@ j = 3, 1<<j = 001000 <- bit 1 is shifted to the left 3 times
 T = 8 (base 10) = 001000 (base 2) -> not zero, the 3rd item is on
 */
 
+/*
+4) To clear/turn off the j-th item of the set,
+use the bitwise AND operation S &= ~(1<<j).
+
+S = 42 (base 10) = 101010 (base 2)
+j = 1, ~(1<<j) = 111101 <- ~ is the bitwise NOT operation
+-------- AND
+S = 40 (base 10) = 101000 (base 2) // update S to this new value 40
+*/
+
+/*
+5) To toggle (flip the status of) the j-th item of the set,
+use the bitwise XOR operation S ^= (1<<j).
+
+S = 40 (base 10) = 101000 (base 2)
+j = 2, (1<<j) = 000100 <- bit 1 is shifted to the left 2 times
+-------- XOR <- true if both bits are different
+S = 44 (base 10) = 101100 (base 2) // update S to this new value 44
+*/
+
+/*
+6) To get the value of the least significant bit of S that is on (first from the right),
+use T = ((S) & -(S)). This operation is abbreviated as LSOne(S).
+
+Notice that T = LSOne(S) is a power of 2, i.e., 2^j .
+To get the actual index j (from the right), we can use __builtin_ctz(T) below.
+*/
+
+/*
+7) To turn on all bits in a set of size n, use S = (1<<n) - 1
+*/
+
+/*
+8) To enumerate all proper subsets of a given a bitmask, e.g., if mask = (18)10 = (10010)2,
+then its proper subsets are {(18)10 = (10010)2, (16)10 = (10000)2, (2)10 = (00010)2},
+we can use:
+int mask = 18;
+for (int subset = mask; subset; subset = (mask & (subset-1)))
+    cout << subset << "\n";
+*/
+
+/*
+__builtin_popcount(S) to count how many bits that are on in S and
+__builtin_ctz(S) to count how many trailing zeroes in S.
+*/
