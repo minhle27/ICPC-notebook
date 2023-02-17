@@ -97,4 +97,6 @@
 \contentsline {section}{\numberline {11.6}Math Related}{26}{section.11.6}%
 \contentsline {subsection}{\numberline {11.6.1}Prime Check}{26}{subsection.11.6.1}%
 \contentsline {subsection}{\numberline {11.6.2}Sieve of Eratosthenes}{26}{subsection.11.6.2}%
+\contentsline {section}{\numberline {11.7}Others}{27}{section.11.7}%
+\contentsline {subsection}{\numberline {11.7.1}RMQ - ST}{27}{subsection.11.7.1}%
 \contentsfinish 
