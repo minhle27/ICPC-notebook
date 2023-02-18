@@ -3,7 +3,7 @@
  * Date: 2018-07-15
  * License: CC0
  * Source: Wikipedia
- * Description: RMQ problem using Sparse Table, DP
+ * Description: Range min querry problem using Sparse Table, DP
  * Time: Preprocess: O(N\log N), Querry: O(1)
  * Status: 
  */

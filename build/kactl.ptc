@@ -238,37 +238,54 @@
 \ttl@stoptoc {chapters@10}
 \ttl@starttoc {chapters@11}
 \contentsline {section}{\numberline {11.1}SegmentTree}{24}{section.11.1}%
-\contentsline {subsection}{\texttt {lazysegtree.h}\hspace {0.2em}}{24}{section.11.1}%
-\contentsline {section}{\numberline {11.2}FenwickTree}{24}{section.11.2}%
-\contentsline {subsection}{\texttt {lazysegtree.h}\hspace {0.2em}}{24}{section.11.2}%
-\contentsline {section}{\numberline {11.3}Bitwise}{25}{section.11.3}%
-\contentsline {subsection}{\texttt {bitwise.h}\hspace {0.2em}}{25}{section.11.3}%
-\contentsline {section}{\numberline {11.4}Shortest Path}{25}{section.11.4}%
-\contentsline {subsection}{\numberline {11.4.1}Dijkstra}{25}{subsection.11.4.1}%
-\contentsline {subsection}{\texttt {dijkstra.h}\hspace {0.2em}}{25}{subsection.11.4.1}%
-\contentsline {subsection}{\numberline {11.4.2}Bellman-Ford}{25}{subsection.11.4.2}%
-\contentsline {subsection}{\texttt {bellmanford.h}\hspace {0.2em}}{25}{subsection.11.4.2}%
-\contentsline {subsection}{\numberline {11.4.3}Floyd Warshall}{25}{subsection.11.4.3}%
-\contentsline {subsection}{\texttt {floyd-warshall.h}\hspace {0.2em}}{25}{subsection.11.4.3}%
-\contentsline {subsection}{\numberline {11.4.4}Trace path}{26}{subsection.11.4.4}%
-\contentsline {subsection}{\texttt {tracepath.h}\hspace {0.2em}}{26}{subsection.11.4.4}%
-\contentsline {subsection}{\numberline {11.4.5}0-1 BFS}{26}{subsection.11.4.5}%
-\contentsline {subsection}{\texttt {0-1BFS.h}\hspace {0.2em}}{26}{subsection.11.4.5}%
-\contentsline {section}{\numberline {11.5}Min Spanning Tree}{26}{section.11.5}%
-\contentsline {subsection}{\numberline {11.5.1}Kruskal}{26}{subsection.11.5.1}%
-\contentsline {subsection}{\texttt {kruskal.h}\hspace {0.2em}}{26}{subsection.11.5.1}%
-\contentsline {subsection}{\numberline {11.5.2}Min Spanning Subgraph}{26}{subsection.11.5.2}%
-\contentsline {subsection}{\texttt {mss.h}\hspace {0.2em}}{26}{subsection.11.5.2}%
-\contentsline {subsection}{\numberline {11.5.3}Second-Best Spanning Tree}{26}{subsection.11.5.3}%
-\contentsline {subsection}{\texttt {sbst.h}\hspace {0.2em}}{26}{subsection.11.5.3}%
-\contentsline {section}{\numberline {11.6}Math Related}{26}{section.11.6}%
-\contentsline {subsection}{\numberline {11.6.1}Prime Check}{26}{subsection.11.6.1}%
-\contentsline {subsection}{\texttt {isPrime.h}\hspace {0.2em}}{26}{subsection.11.6.1}%
-\contentsline {subsection}{\numberline {11.6.2}Sieve of Eratosthenes}{26}{subsection.11.6.2}%
-\contentsline {subsection}{\texttt {sieve.h}\hspace {0.2em}}{26}{subsection.11.6.2}%
-\contentsline {section}{\numberline {11.7}Others}{27}{section.11.7}%
-\contentsline {subsection}{\numberline {11.7.1}RMQ - ST}{27}{subsection.11.7.1}%
-\contentsline {subsection}{\texttt {RMQ-ST.h}\hspace {0.2em}}{27}{subsection.11.7.1}%
+\contentsline {subsection}{\numberline {11.1.1}Lazysegtree}{24}{subsection.11.1.1}%
+\contentsline {subsection}{\texttt {lazysegtree.h}\hspace {0.2em}}{24}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.1.2}GSS problem}{24}{subsection.11.1.2}%
+\contentsline {subsection}{\texttt {gss.h}\hspace {0.2em}}{24}{subsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.1.3}GSS problem}{25}{subsection.11.1.3}%
+\contentsline {subsection}{\texttt {segtree.h}\hspace {0.2em}}{25}{subsection.11.1.3}%
+\contentsline {section}{\numberline {11.2}Disjoint Set Union}{25}{section.11.2}%
+\contentsline {subsection}{\texttt {dsu.h}\hspace {0.2em}}{25}{section.11.2}%
+\contentsline {section}{\numberline {11.3}FenwickTree}{25}{section.11.3}%
+\contentsline {subsection}{\texttt {fenwicktree.h}\hspace {0.2em}}{25}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Bitwise}{25}{section.11.4}%
+\contentsline {subsection}{\texttt {bitwise.h}\hspace {0.2em}}{25}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Shortest Path}{26}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}Dijkstra}{26}{subsection.11.5.1}%
+\contentsline {subsection}{\texttt {dijkstra.h}\hspace {0.2em}}{26}{subsection.11.5.1}%
+\contentsline {subsection}{\numberline {11.5.2}Bellman-Ford}{26}{subsection.11.5.2}%
+\contentsline {subsection}{\texttt {bellmanford.h}\hspace {0.2em}}{26}{subsection.11.5.2}%
+\contentsline {subsection}{\numberline {11.5.3}Floyd Warshall}{26}{subsection.11.5.3}%
+\contentsline {subsection}{\texttt {floyd-warshall.h}\hspace {0.2em}}{26}{subsection.11.5.3}%
+\contentsline {subsection}{\numberline {11.5.4}Trace path}{26}{subsection.11.5.4}%
+\contentsline {subsection}{\texttt {tracepath.h}\hspace {0.2em}}{26}{subsection.11.5.4}%
+\contentsline {subsection}{\numberline {11.5.5}0-1 BFS}{26}{subsection.11.5.5}%
+\contentsline {subsection}{\texttt {0-1BFS.h}\hspace {0.2em}}{26}{subsection.11.5.5}%
+\contentsline {section}{\numberline {11.6}Min Spanning Tree}{27}{section.11.6}%
+\contentsline {subsection}{\numberline {11.6.1}Kruskal}{27}{subsection.11.6.1}%
+\contentsline {subsection}{\texttt {kruskal.h}\hspace {0.2em}}{27}{subsection.11.6.1}%
+\contentsline {subsection}{\numberline {11.6.2}Min Spanning Subgraph}{27}{subsection.11.6.2}%
+\contentsline {subsection}{\texttt {mss.h}\hspace {0.2em}}{27}{subsection.11.6.2}%
+\contentsline {subsection}{\numberline {11.6.3}Second-Best Spanning Tree}{27}{subsection.11.6.3}%
+\contentsline {subsection}{\texttt {sbst.h}\hspace {0.2em}}{27}{subsection.11.6.3}%
+\contentsline {section}{\numberline {11.7}Math Related}{27}{section.11.7}%
+\contentsline {subsection}{\numberline {11.7.1}Prime Check}{27}{subsection.11.7.1}%
+\contentsline {subsection}{\texttt {isPrime.h}\hspace {0.2em}}{27}{subsection.11.7.1}%
+\contentsline {subsection}{\numberline {11.7.2}Sieve of Eratosthenes}{27}{subsection.11.7.2}%
+\contentsline {subsection}{\texttt {sieve.h}\hspace {0.2em}}{27}{subsection.11.7.2}%
+\contentsline {subsection}{\numberline {11.7.3}Factorize a number}{27}{subsection.11.7.3}%
+\contentsline {subsection}{\texttt {factorize.h}\hspace {0.2em}}{27}{subsection.11.7.3}%
+\contentsline {section}{\numberline {11.8}Sorting}{28}{section.11.8}%
+\contentsline {subsection}{\texttt {sorting.h}\hspace {0.2em}}{28}{section.11.8}%
+\contentsline {section}{\numberline {11.9}Set and Map operation}{28}{section.11.9}%
+\contentsline {section}{\numberline {11.10}Others}{28}{section.11.10}%
+\contentsline {subsection}{\numberline {11.10.1}RMQ - ST}{28}{subsection.11.10.1}%
+\contentsline {subsection}{\texttt {RMQ-ST.h}\hspace {0.2em}}{28}{subsection.11.10.1}%
+\contentsline {subsection}{\numberline {11.10.2}Lowest Common Ancestor}{28}{subsection.11.10.2}%
+\contentsline {subsection}{\texttt {LCA.h}\hspace {0.2em}}{28}{subsection.11.10.2}%
+\contentsline {subsection}{\numberline {11.10.3}Flood Fill}{28}{subsection.11.10.3}%
+\contentsline {subsection}{\numberline {11.10.4}Calculating Tree Diameter}{28}{subsection.11.10.4}%
+\contentsline {subsection}{\texttt {treediameter.h}\hspace {0.2em}}{28}{subsection.11.10.4}%
 \ttl@stoptoc {chapters@11}
 \ttl@starttoc {chapters@12}
 \contentsfinish 

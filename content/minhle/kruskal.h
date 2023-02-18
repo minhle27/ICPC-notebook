@@ -8,32 +8,31 @@
  * Status: 
  */
 
-struct DSU{
-    vector<int> parent, sz;
+struct DSU {
+    vector<int> lab;
 
-    DSU(int n) : parent(n), sz(n) {};
-    
-    void init(int n){
-        for (int i = 1; i <= n; i++){
-            parent[i] = i;
-            sz[i] = 1;
-        }
+    DSU(int n) : lab(n+1, -1) {}
+
+    int getRoot(int u) {
+        if (lab[u] < 0) return u;
+        return lab[u] = getRoot(lab[u]);
     }
 
-    int find_set(int v) {
-        return v == parent[v] ? v : parent[v] = find_set(parent[v]);
-    }
-
-    bool join_sets(int a, int b) {
-        a = find_set(a);
-        b = find_set(b);
-        if (a == b){
-            return false;
-        }
-        if (sz[a] < sz[b]) swap(a,b);
-        parent[b] = a;
-        sz[a] += sz[b];
+    bool merge(int u, int v) {
+        u = getRoot(u); v = getRoot(v);
+        if (u == v) return false;
+        if (lab[u] > lab[v]) swap(u, v);
+        lab[u] += lab[v];
+        lab[v] = u;
         return true;
+    }
+
+    bool same_component(int u, int v) {
+        return getRoot(u) == getRoot(v);
+    }
+
+    int component_size(int u) {
+        return -lab[getRoot(u)];
     }
 };
 
@@ -45,7 +44,7 @@ int main()
     int V, E, mst_cost = 0, num_taken = 0;
     cin >> V >> E;
     vector<iii> EL(E);
-    DSU g(V + 5); g.init(V);
+    DSU g(V + 5); 
 
     for (int i = 0; i < E; i++){
         int u, v, w;
@@ -56,9 +55,9 @@ int main()
     sort(EL.begin(), EL.end()); // sort by w
 
     for (auto &[w, u, v] : EL){
-        if (!g.join_sets(u, v)) continue;
+        if (g.same_component(u, v)) continue;
         mst_cost += w;
-        g.join_sets(u, v);
+        g.merge(u, v);
         ++num_taken;
         if (num_taken == V - 1) break;
     }

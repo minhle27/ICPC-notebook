@@ -4,9 +4,12 @@
  * License: CC0
  * Source: Wikipedia
  * Description: Lazy-SegTree, version range max queries
- * Time: O(\log N) for both range queries and updates
+ * Time: O(\log N) for both range queries and updates a range
  * Status: 
  */
+
+const int inf  = 1e9 + 7;
+const int maxN = 1e5 + 7;
 
 int n, q;
 int a[maxN];

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.14)  16 FEB 2023 21:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.14)  18 FEB 2023 12:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1436,17 +1436,35 @@ runsystem(python3 content/tex/preprocessor.py -i "content/minhle/lazysegtree.h" 
 (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
-runsystem(python3 content/tex/preprocessor.py -i "content/minhle/lazysegtree.h" -o build/kactl.tmp )...executed.
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/gss.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "gss.h|gss.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [24])
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/segtree.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
-runsystem(python3 content/tex/preprocessor.py --print-header "lazysegtree.h|lazysegtree.h" -o build/header2.tmp)...executed.
+runsystem(rm -f build/kactl.tmp)...executed.
 
- (./build/header2.tmp) [24]
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/dsu.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/fenwicktree.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/bitwise.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "bitwise.h|bitwise.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [25])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/dijkstra.h" -o build/kactl.tmp )...executed.
@@ -1461,10 +1479,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/floyd-warshall.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "floyd-warshall.h|floyd-warshall.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [25])
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/tracepath.h" -o build/kactl.tmp )...executed.
@@ -1474,7 +1489,10 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/0-1BFS.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "0-1BFS.h|0-1BFS.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [26])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/kruskal.h" -o build/kactl.tmp )...executed.
@@ -1500,17 +1518,37 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/sieve.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
-runsystem(python3 content/tex/preprocessor.py --print-header "sieve.h|sieve.h" -o build/header2.tmp)...executed.
+runsystem(rm -f build/kactl.tmp)...executed.
 
- (./build/header2.tmp) [26]
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/factorize.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(python3 content/tex/preprocessor.py --print-header "factorize.h|factorize.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [27]
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/sorting.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/RMQ-ST.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp))
-runsystem(python3 content/tex/preprocessor.py --print-header "|RMQ-ST.h" -o build/header2.tmp)...executed.
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
 
- (./build/header2.tmp) [27] (./content/appendix/chapter.tex
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/LCA.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/treediameter.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp))
+runsystem(python3 content/tex/preprocessor.py --print-header "|treediameter.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [28] (./content/appendix/chapter.tex
 pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1699,7 +1737,7 @@ l.39 	Strongly
                connected components))
 runsystem(python3 content/tex/preprocessor.py --print-header "|techniques.txt" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [28]
+ (./build/header2.tmp) [29]
 \tf@ptc=\write5
 \openout5 = `kactl.ptc'.
 
@@ -1714,18 +1752,18 @@ Package rerunfilecheck Info: File `kactl.out' has not changed.
 (rerunfilecheck)             Checksum: AACBA284B87DC23A70B9A6F7E66CAE7B;1034.
  ) 
 Here is how much of TeX's memory you used:
- 21394 strings out of 479719
- 326134 string characters out of 5880574
+ 21802 strings out of 479719
+ 332414 string characters out of 5880574
  2222225 words of memory out of 5000000
- 34847 multiletter control sequences out of 15000+600000
+ 34973 multiletter control sequences out of 15000+600000
  485061 words of font info for 87 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  75i,16n,77p,682b,2239s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/mabook/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </Users/mabook/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk>{/usr/local/texlive/2022basic/texmf-dist/fonts/enc/dvips/base/8r.enc} </Users/mabook/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti0700.600pk></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on build//kactl.pdf (29 pages, 2511098 bytes).
+Output written on build//kactl.pdf (30 pages, 2529999 bytes).
 PDF statistics:
- 5476 PDF objects out of 6186 (max. 8388607)
- 5161 compressed objects within 52 object streams
- 3889 named destinations out of 4296 (max. 500000)
+ 5800 PDF objects out of 6186 (max. 8388607)
+ 5481 compressed objects within 55 object streams
+ 4155 named destinations out of 4296 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
