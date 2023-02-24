@@ -1,18 +1,15 @@
 \contentsline {chapter}{\numberline {1}Contest}{1}{chapter.1}%
 \ttl@starttoc {chapters@1}
 \contentsline {section}{\texttt {template.cpp}\hspace {0.2em}}{1}{chapter.1}%
-\contentsline {section}{\texttt {.bashrc}\hspace {0.2em}}{1}{lstnumber.1.1.36}%
-\contentsline {section}{\texttt {.vimrc}\hspace {0.2em}}{1}{lstnumber.1.2.3}%
-\contentsline {section}{\texttt {hash.sh}\hspace {0.2em}}{1}{lstnumber.1.3.6}%
-\contentsline {section}{\texttt {troubleshoot.txt}\hspace {0.2em}}{1}{lstnumber.1.4.3}%
+\contentsline {section}{\texttt {troubleshoot.txt}\hspace {0.2em}}{1}{lstnumber.1.1.35}%
 \contentsline {chapter}{\numberline {2}Mathematics}{1}{chapter.2}%
 \ttl@stoptoc {chapters@1}
 \ttl@starttoc {chapters@2}
 \contentsline {section}{\numberline {2.1}Equations}{1}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Recurrences}{1}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Trigonometry}{1}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Geometry}{2}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Triangles}{2}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.4}Geometry}{1}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Triangles}{1}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Quadrilaterals}{2}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Spherical coordinates}{2}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Derivatives/Integrals}{2}{section.2.5}%
@@ -23,11 +20,10 @@
 \contentsline {subsubsection}{Binomial distribution}{2}{section*.1}%
 \contentsline {subsubsection}{First success distribution}{2}{section*.2}%
 \contentsline {subsubsection}{Poisson distribution}{2}{section*.3}%
-\contentsline {subsection}{\numberline {2.8.2}Continuous distributions}{3}{subsection.2.8.2}%
-\contentsline {subsubsection}{Uniform distribution}{3}{section*.4}%
-\contentsline {subsubsection}{Exponential distribution}{3}{section*.5}%
+\contentsline {subsection}{\numberline {2.8.2}Continuous distributions}{2}{subsection.2.8.2}%
+\contentsline {subsubsection}{Uniform distribution}{2}{section*.4}%
+\contentsline {subsubsection}{Exponential distribution}{2}{section*.5}%
 \contentsline {subsubsection}{Normal distribution}{3}{section*.6}%
-\contentsline {section}{\numberline {2.9}Markov chains}{3}{section.2.9}%
 \contentsline {chapter}{\numberline {3}Data structures}{3}{chapter.3}%
 \ttl@stoptoc {chapters@2}
 \ttl@starttoc {chapters@3}
@@ -36,14 +32,14 @@
 \contentsline {section}{\texttt {SegmentTree.h}\hspace {0.2em}}{3}{lstnumber.3.2.7}%
 \contentsline {section}{\texttt {LazySegmentTree.h}\hspace {0.2em}}{3}{lstnumber.3.3.19}%
 \contentsline {section}{\texttt {UnionFindRollback.h}\hspace {0.2em}}{3}{lstnumber.3.4.50}%
-\contentsline {section}{\texttt {SubMatrix.h}\hspace {0.2em}}{4}{lstnumber.3.5.21}%
-\contentsline {section}{\texttt {Matrix.h}\hspace {0.2em}}{4}{lstnumber.3.6.13}%
+\contentsline {section}{\texttt {SubMatrix.h}\hspace {0.2em}}{3}{lstnumber.3.5.21}%
+\contentsline {section}{\texttt {Matrix.h}\hspace {0.2em}}{3}{lstnumber.3.6.13}%
 \contentsline {section}{\texttt {LineContainer.h}\hspace {0.2em}}{4}{lstnumber.3.7.26}%
 \contentsline {section}{\texttt {Treap.h}\hspace {0.2em}}{4}{lstnumber.3.8.30}%
 \contentsline {section}{\texttt {FenwickTree.h}\hspace {0.2em}}{4}{lstnumber.3.9.55}%
-\contentsline {section}{\texttt {FenwickTree2d.h}\hspace {0.2em}}{5}{lstnumber.3.10.22}%
-\contentsline {section}{\texttt {RMQ.h}\hspace {0.2em}}{5}{lstnumber.3.11.22}%
-\contentsline {section}{\texttt {MoQueries.h}\hspace {0.2em}}{5}{lstnumber.3.12.16}%
+\contentsline {section}{\texttt {FenwickTree2d.h}\hspace {0.2em}}{4}{lstnumber.3.10.22}%
+\contentsline {section}{\texttt {RMQ.h}\hspace {0.2em}}{4}{lstnumber.3.11.22}%
+\contentsline {section}{\texttt {MoQueries.h}\hspace {0.2em}}{4}{lstnumber.3.12.16}%
 \contentsline {chapter}{\numberline {4}Numerical}{5}{chapter.4}%
 \ttl@stoptoc {chapters@3}
 \ttl@starttoc {chapters@4}
@@ -52,240 +48,257 @@
 \contentsline {subsection}{\texttt {PolyRoots.h}\hspace {0.2em}}{5}{lstnumber.4.1.17}%
 \contentsline {subsection}{\texttt {PolyInterpolate.h}\hspace {0.2em}}{5}{lstnumber.4.2.23}%
 \contentsline {subsection}{\texttt {BerlekampMassey.h}\hspace {0.2em}}{5}{lstnumber.4.3.13}%
-\contentsline {subsection}{\texttt {LinearRecurrence.h}\hspace {0.2em}}{6}{lstnumber.4.4.20}%
-\contentsline {section}{\numberline {4.2}Optimization}{6}{section.4.2}%
-\contentsline {subsection}{\texttt {GoldenSectionSearch.h}\hspace {0.2em}}{6}{section.4.2}%
-\contentsline {subsection}{\texttt {HillClimbing.h}\hspace {0.2em}}{6}{lstnumber.4.6.14}%
-\contentsline {subsection}{\texttt {Integrate.h}\hspace {0.2em}}{6}{lstnumber.4.7.14}%
-\contentsline {subsection}{\texttt {IntegrateAdaptive.h}\hspace {0.2em}}{6}{lstnumber.4.8.7}%
-\contentsline {subsection}{\texttt {Simplex.h}\hspace {0.2em}}{6}{lstnumber.4.9.15}%
-\contentsline {section}{\numberline {4.3}Matrices}{7}{section.4.3}%
-\contentsline {subsection}{\texttt {Determinant.h}\hspace {0.2em}}{7}{section.4.3}%
-\contentsline {subsection}{\texttt {IntDeterminant.h}\hspace {0.2em}}{7}{lstnumber.4.11.15}%
-\contentsline {subsection}{\texttt {SolveLinear.h}\hspace {0.2em}}{7}{lstnumber.4.12.18}%
-\contentsline {subsection}{\texttt {SolveLinear2.h}\hspace {0.2em}}{7}{lstnumber.4.13.38}%
-\contentsline {subsection}{\texttt {SolveLinearBinary.h}\hspace {0.2em}}{7}{lstnumber.4.14.7}%
-\contentsline {subsection}{\texttt {MatrixInverse.h}\hspace {0.2em}}{7}{lstnumber.4.15.34}%
-\contentsline {subsection}{\texttt {Tridiagonal.h}\hspace {0.2em}}{7}{lstnumber.4.16.35}%
-\contentsline {section}{\numberline {4.4}Fourier transforms}{8}{section.4.4}%
-\contentsline {subsection}{\texttt {FastFourierTransform.h}\hspace {0.2em}}{8}{section.4.4}%
-\contentsline {subsection}{\texttt {FastFourierTransformMod.h}\hspace {0.2em}}{8}{lstnumber.4.18.35}%
-\contentsline {subsection}{\texttt {NumberTheoreticTransform.h}\hspace {0.2em}}{8}{lstnumber.4.19.22}%
-\contentsline {subsection}{\texttt {FastSubsetTransform.h}\hspace {0.2em}}{8}{lstnumber.4.20.33}%
-\contentsline {chapter}{\numberline {5}Number theory}{8}{chapter.5}%
+\contentsline {subsection}{\texttt {LinearRecurrence.h}\hspace {0.2em}}{5}{lstnumber.4.4.20}%
+\contentsline {section}{\numberline {4.2}Optimization}{5}{section.4.2}%
+\contentsline {subsection}{\texttt {GoldenSectionSearch.h}\hspace {0.2em}}{5}{section.4.2}%
+\contentsline {subsection}{\texttt {Integrate.h}\hspace {0.2em}}{6}{lstnumber.4.6.14}%
+\contentsline {subsection}{\texttt {IntegrateAdaptive.h}\hspace {0.2em}}{6}{lstnumber.4.7.7}%
+\contentsline {section}{\numberline {4.3}Matrices}{6}{section.4.3}%
+\contentsline {subsection}{\texttt {Determinant.h}\hspace {0.2em}}{6}{section.4.3}%
+\contentsline {subsection}{\texttt {IntDeterminant.h}\hspace {0.2em}}{6}{lstnumber.4.9.15}%
+\contentsline {subsection}{\texttt {SolveLinear.h}\hspace {0.2em}}{6}{lstnumber.4.10.18}%
+\contentsline {subsection}{\texttt {SolveLinear2.h}\hspace {0.2em}}{6}{lstnumber.4.11.38}%
+\contentsline {subsection}{\texttt {SolveLinearBinary.h}\hspace {0.2em}}{6}{lstnumber.4.12.7}%
+\contentsline {subsection}{\texttt {MatrixInverse.h}\hspace {0.2em}}{6}{lstnumber.4.13.34}%
+\contentsline {subsection}{\texttt {Tridiagonal.h}\hspace {0.2em}}{7}{lstnumber.4.14.35}%
+\contentsline {chapter}{\numberline {5}Number theory}{7}{chapter.5}%
 \ttl@stoptoc {chapters@4}
 \ttl@starttoc {chapters@5}
-\contentsline {section}{\numberline {5.1}Modular arithmetic}{8}{section.5.1}%
-\contentsline {subsection}{\texttt {ModularArithmetic.h}\hspace {0.2em}}{8}{section.5.1}%
-\contentsline {subsection}{\texttt {ModInverse.h}\hspace {0.2em}}{8}{lstnumber.5.1.18}%
-\contentsline {subsection}{\texttt {ModPow.h}\hspace {0.2em}}{9}{lstnumber.5.2.3}%
-\contentsline {subsection}{\texttt {ModLog.h}\hspace {0.2em}}{9}{lstnumber.5.3.8}%
-\contentsline {subsection}{\texttt {ModSum.h}\hspace {0.2em}}{9}{lstnumber.5.4.11}%
-\contentsline {subsection}{\texttt {ModMulLL.h}\hspace {0.2em}}{9}{lstnumber.5.5.16}%
-\contentsline {subsection}{\texttt {ModSqrt.h}\hspace {0.2em}}{9}{lstnumber.5.6.11}%
-\contentsline {section}{\numberline {5.2}Primality}{9}{section.5.2}%
-\contentsline {subsection}{\texttt {FastEratosthenes.h}\hspace {0.2em}}{9}{section.5.2}%
-\contentsline {subsection}{\texttt {MillerRabin.h}\hspace {0.2em}}{9}{lstnumber.5.8.20}%
-\contentsline {subsection}{\texttt {Factor.h}\hspace {0.2em}}{9}{lstnumber.5.9.12}%
-\contentsline {section}{\numberline {5.3}Divisibility}{9}{section.5.3}%
-\contentsline {subsection}{\texttt {euclid.h}\hspace {0.2em}}{9}{section.5.3}%
-\contentsline {subsection}{\texttt {CRT.h}\hspace {0.2em}}{9}{lstnumber.5.11.5}%
-\contentsline {subsection}{\numberline {5.3.1}Bézout's identity}{9}{subsection.5.3.1}%
-\contentsline {subsection}{\texttt {phiFunction.h}\hspace {0.2em}}{10}{subsection.5.3.1}%
-\contentsline {section}{\numberline {5.4}Fractions}{10}{section.5.4}%
-\contentsline {subsection}{\texttt {ContinuedFractions.h}\hspace {0.2em}}{10}{section.5.4}%
-\contentsline {subsection}{\texttt {FracBinarySearch.h}\hspace {0.2em}}{10}{lstnumber.5.14.21}%
-\contentsline {section}{\numberline {5.5}Pythagorean Triples}{10}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Primes}{10}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Estimates}{10}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Mobius Function}{10}{section.5.8}%
-\contentsline {chapter}{\numberline {6}Combinatorial}{10}{chapter.6}%
+\contentsline {section}{\numberline {5.1}Modular arithmetic}{7}{section.5.1}%
+\contentsline {subsection}{\texttt {ModularArithmetic.h}\hspace {0.2em}}{7}{section.5.1}%
+\contentsline {subsection}{\texttt {ModInverse.h}\hspace {0.2em}}{7}{lstnumber.5.1.18}%
+\contentsline {subsection}{\texttt {ModPow.h}\hspace {0.2em}}{7}{lstnumber.5.2.3}%
+\contentsline {subsection}{\texttt {ModLog.h}\hspace {0.2em}}{7}{lstnumber.5.3.8}%
+\contentsline {subsection}{\texttt {ModSum.h}\hspace {0.2em}}{7}{lstnumber.5.4.11}%
+\contentsline {subsection}{\texttt {ModMulLL.h}\hspace {0.2em}}{7}{lstnumber.5.5.16}%
+\contentsline {subsection}{\texttt {ModSqrt.h}\hspace {0.2em}}{7}{lstnumber.5.6.11}%
+\contentsline {section}{\numberline {5.2}Primality}{7}{section.5.2}%
+\contentsline {subsection}{\texttt {FastEratosthenes.h}\hspace {0.2em}}{7}{section.5.2}%
+\contentsline {subsection}{\texttt {MillerRabin.h}\hspace {0.2em}}{8}{lstnumber.5.8.20}%
+\contentsline {subsection}{\texttt {Factor.h}\hspace {0.2em}}{8}{lstnumber.5.9.12}%
+\contentsline {section}{\numberline {5.3}Divisibility}{8}{section.5.3}%
+\contentsline {subsection}{\texttt {euclid.h}\hspace {0.2em}}{8}{section.5.3}%
+\contentsline {subsection}{\texttt {CRT.h}\hspace {0.2em}}{8}{lstnumber.5.11.5}%
+\contentsline {subsection}{\numberline {5.3.1}Bézout's identity}{8}{subsection.5.3.1}%
+\contentsline {subsection}{\texttt {phiFunction.h}\hspace {0.2em}}{8}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}Fractions}{8}{section.5.4}%
+\contentsline {subsection}{\texttt {ContinuedFractions.h}\hspace {0.2em}}{8}{section.5.4}%
+\contentsline {subsection}{\texttt {FracBinarySearch.h}\hspace {0.2em}}{8}{lstnumber.5.14.21}%
+\contentsline {section}{\numberline {5.5}Pythagorean Triples}{8}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Primes}{9}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Estimates}{9}{section.5.7}%
+\contentsline {chapter}{\numberline {6}Combinatorial}{9}{chapter.6}%
 \ttl@stoptoc {chapters@5}
 \ttl@starttoc {chapters@6}
-\contentsline {section}{\numberline {6.1}Permutations}{10}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Factorial}{10}{subsection.6.1.1}%
-\contentsline {subsection}{\texttt {IntPerm.h}\hspace {0.2em}}{10}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Cycles}{10}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}Derangements}{10}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}Burnside's lemma}{10}{subsection.6.1.4}%
-\contentsline {section}{\numberline {6.2}Partitions and subsets}{11}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Partition function}{11}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Lucas' Theorem}{11}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Binomials}{11}{subsection.6.2.3}%
-\contentsline {subsection}{\texttt {multinomial.h}\hspace {0.2em}}{11}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}General purpose numbers}{11}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Bernoulli numbers}{11}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Stirling numbers of the first kind}{11}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Eulerian numbers}{11}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Stirling numbers of the second kind}{11}{subsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.3.5}Bell numbers}{11}{subsection.6.3.5}%
-\contentsline {subsection}{\numberline {6.3.6}Labeled unrooted trees}{11}{subsection.6.3.6}%
-\contentsline {subsection}{\numberline {6.3.7}Catalan numbers}{11}{subsection.6.3.7}%
-\contentsline {chapter}{\numberline {7}Graph}{11}{chapter.7}%
+\contentsline {section}{\numberline {6.1}Permutations}{9}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Factorial}{9}{subsection.6.1.1}%
+\contentsline {subsection}{\texttt {IntPerm.h}\hspace {0.2em}}{9}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Cycles}{9}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Derangements}{9}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Burnside's lemma}{9}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}Partitions and subsets}{9}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Partition function}{9}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Lucas' Theorem}{9}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Binomials}{9}{subsection.6.2.3}%
+\contentsline {subsection}{\texttt {multinomial.h}\hspace {0.2em}}{9}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}General purpose numbers}{9}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Bernoulli numbers}{9}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Stirling numbers of the first kind}{9}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Eulerian numbers}{9}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Stirling numbers of the second kind}{9}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Bell numbers}{9}{subsection.6.3.5}%
+\contentsline {subsection}{\numberline {6.3.6}Labeled unrooted trees}{9}{subsection.6.3.6}%
+\contentsline {subsection}{\numberline {6.3.7}Catalan numbers}{10}{subsection.6.3.7}%
+\contentsline {chapter}{\numberline {7}Graph}{10}{chapter.7}%
 \ttl@stoptoc {chapters@6}
 \ttl@starttoc {chapters@7}
-\contentsline {section}{\numberline {7.1}Fundamentals}{11}{section.7.1}%
-\contentsline {subsection}{\texttt {BellmanFord.h}\hspace {0.2em}}{11}{section.7.1}%
-\contentsline {subsection}{\texttt {FloydWarshall.h}\hspace {0.2em}}{11}{lstnumber.7.1.23}%
-\contentsline {subsection}{\texttt {TopoSort.h}\hspace {0.2em}}{11}{lstnumber.7.2.12}%
-\contentsline {section}{\numberline {7.2}Network flow}{12}{section.7.2}%
-\contentsline {subsection}{\texttt {PushRelabel.h}\hspace {0.2em}}{12}{section.7.2}%
-\contentsline {subsection}{\texttt {MinCostMaxFlow.h}\hspace {0.2em}}{12}{lstnumber.7.4.48}%
-\contentsline {subsection}{\texttt {EdmondsKarp.h}\hspace {0.2em}}{12}{lstnumber.7.5.81}%
-\contentsline {subsection}{\texttt {MinCut.h}\hspace {0.2em}}{12}{lstnumber.7.6.35}%
-\contentsline {subsection}{\texttt {GlobalMinCut.h}\hspace {0.2em}}{12}{lstnumber.7.7.1}%
-\contentsline {subsection}{\texttt {GomoryHu.h}\hspace {0.2em}}{13}{lstnumber.7.8.21}%
-\contentsline {section}{\numberline {7.3}Matching}{13}{section.7.3}%
-\contentsline {subsection}{\texttt {hopcroftKarp.h}\hspace {0.2em}}{13}{section.7.3}%
-\contentsline {subsection}{\texttt {DFSMatching.h}\hspace {0.2em}}{13}{lstnumber.7.10.42}%
-\contentsline {subsection}{\texttt {MinimumVertexCover.h}\hspace {0.2em}}{13}{lstnumber.7.11.22}%
-\contentsline {subsection}{\texttt {WeightedMatching.h}\hspace {0.2em}}{13}{lstnumber.7.12.20}%
-\contentsline {subsection}{\texttt {GeneralMatching.h}\hspace {0.2em}}{13}{lstnumber.7.13.31}%
-\contentsline {section}{\numberline {7.4}DFS algorithms}{14}{section.7.4}%
-\contentsline {subsection}{\texttt {SCC.h}\hspace {0.2em}}{14}{section.7.4}%
-\contentsline {subsection}{\texttt {BiconnectedComponents.h}\hspace {0.2em}}{14}{lstnumber.7.15.24}%
-\contentsline {subsection}{\texttt {2sat.h}\hspace {0.2em}}{14}{lstnumber.7.16.33}%
-\contentsline {subsection}{\texttt {EulerWalk.h}\hspace {0.2em}}{14}{lstnumber.7.17.56}%
-\contentsline {section}{\numberline {7.5}Coloring}{15}{section.7.5}%
-\contentsline {subsection}{\texttt {EdgeColoring.h}\hspace {0.2em}}{15}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Heuristics}{15}{section.7.6}%
-\contentsline {subsection}{\texttt {MaximalCliques.h}\hspace {0.2em}}{15}{section.7.6}%
-\contentsline {subsection}{\texttt {MaximumClique.h}\hspace {0.2em}}{15}{lstnumber.7.20.12}%
-\contentsline {subsection}{\texttt {MaximumIndependentSet.h}\hspace {0.2em}}{15}{lstnumber.7.21.49}%
-\contentsline {section}{\numberline {7.7}Trees}{15}{section.7.7}%
-\contentsline {subsection}{\texttt {BinaryLifting.h}\hspace {0.2em}}{15}{section.7.7}%
-\contentsline {subsection}{\texttt {LCA.h}\hspace {0.2em}}{15}{lstnumber.7.23.25}%
-\contentsline {subsection}{\texttt {CompressTree.h}\hspace {0.2em}}{15}{lstnumber.7.24.21}%
-\contentsline {subsection}{\texttt {HLD.h}\hspace {0.2em}}{16}{lstnumber.7.25.21}%
-\contentsline {subsection}{\texttt {LinkCutTree.h}\hspace {0.2em}}{16}{lstnumber.7.26.46}%
-\contentsline {subsection}{\texttt {DirectedMST.h}\hspace {0.2em}}{16}{lstnumber.7.27.90}%
-\contentsline {section}{\numberline {7.8}Math}{17}{section.7.8}%
-\contentsline {subsection}{\numberline {7.8.1}Number of Spanning Trees}{17}{subsection.7.8.1}%
-\contentsline {subsection}{\numberline {7.8.2}Erdős–Gallai theorem}{17}{subsection.7.8.2}%
-\contentsline {chapter}{\numberline {8}Geometry}{17}{chapter.8}%
+\contentsline {section}{\numberline {7.1}Fundamentals}{10}{section.7.1}%
+\contentsline {subsection}{\texttt {BellmanFord.h}\hspace {0.2em}}{10}{section.7.1}%
+\contentsline {subsection}{\texttt {FloydWarshall.h}\hspace {0.2em}}{10}{lstnumber.7.1.23}%
+\contentsline {subsection}{\texttt {TopoSort.h}\hspace {0.2em}}{10}{lstnumber.7.2.12}%
+\contentsline {section}{\numberline {7.2}Network flow}{10}{section.7.2}%
+\contentsline {subsection}{\texttt {PushRelabel.h}\hspace {0.2em}}{10}{section.7.2}%
+\contentsline {subsection}{\texttt {MinCostMaxFlow.h}\hspace {0.2em}}{10}{lstnumber.7.4.48}%
+\contentsline {subsection}{\texttt {EdmondsKarp.h}\hspace {0.2em}}{11}{lstnumber.7.5.81}%
+\contentsline {subsection}{\texttt {MinCut.h}\hspace {0.2em}}{11}{lstnumber.7.6.35}%
+\contentsline {subsection}{\texttt {GlobalMinCut.h}\hspace {0.2em}}{11}{lstnumber.7.7.1}%
+\contentsline {subsection}{\texttt {GomoryHu.h}\hspace {0.2em}}{11}{lstnumber.7.8.21}%
+\contentsline {section}{\numberline {7.3}Matching}{11}{section.7.3}%
+\contentsline {subsection}{\texttt {hopcroftKarp.h}\hspace {0.2em}}{11}{section.7.3}%
+\contentsline {subsection}{\texttt {DFSMatching.h}\hspace {0.2em}}{11}{lstnumber.7.10.42}%
+\contentsline {subsection}{\texttt {MinimumVertexCover.h}\hspace {0.2em}}{12}{lstnumber.7.11.22}%
+\contentsline {subsection}{\texttt {WeightedMatching.h}\hspace {0.2em}}{12}{lstnumber.7.12.20}%
+\contentsline {subsection}{\texttt {GeneralMatching.h}\hspace {0.2em}}{12}{lstnumber.7.13.31}%
+\contentsline {section}{\numberline {7.4}DFS algorithms}{12}{section.7.4}%
+\contentsline {subsection}{\texttt {SCC.h}\hspace {0.2em}}{12}{section.7.4}%
+\contentsline {subsection}{\texttt {BiconnectedComponents.h}\hspace {0.2em}}{12}{lstnumber.7.15.24}%
+\contentsline {subsection}{\texttt {2sat.h}\hspace {0.2em}}{13}{lstnumber.7.16.33}%
+\contentsline {subsection}{\texttt {EulerWalk.h}\hspace {0.2em}}{13}{lstnumber.7.17.56}%
+\contentsline {section}{\numberline {7.5}Coloring}{13}{section.7.5}%
+\contentsline {subsection}{\texttt {EdgeColoring.h}\hspace {0.2em}}{13}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Heuristics}{13}{section.7.6}%
+\contentsline {subsection}{\texttt {MaximalCliques.h}\hspace {0.2em}}{13}{section.7.6}%
+\contentsline {subsection}{\texttt {MaximumClique.h}\hspace {0.2em}}{13}{lstnumber.7.20.12}%
+\contentsline {subsection}{\texttt {MaximumIndependentSet.h}\hspace {0.2em}}{14}{lstnumber.7.21.49}%
+\contentsline {section}{\numberline {7.7}Trees}{14}{section.7.7}%
+\contentsline {subsection}{\texttt {BinaryLifting.h}\hspace {0.2em}}{14}{section.7.7}%
+\contentsline {subsection}{\texttt {LCA.h}\hspace {0.2em}}{14}{lstnumber.7.23.25}%
+\contentsline {subsection}{\texttt {CompressTree.h}\hspace {0.2em}}{14}{lstnumber.7.24.21}%
+\contentsline {subsection}{\texttt {HLD.h}\hspace {0.2em}}{14}{lstnumber.7.25.21}%
+\contentsline {subsection}{\texttt {LinkCutTree.h}\hspace {0.2em}}{14}{lstnumber.7.26.46}%
+\contentsline {subsection}{\texttt {DirectedMST.h}\hspace {0.2em}}{15}{lstnumber.7.27.90}%
+\contentsline {section}{\numberline {7.8}Math}{15}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Number of Spanning Trees}{15}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}Erdős–Gallai theorem}{15}{subsection.7.8.2}%
+\contentsline {chapter}{\numberline {8}Geometry}{15}{chapter.8}%
 \ttl@stoptoc {chapters@7}
 \ttl@starttoc {chapters@8}
-\contentsline {section}{\numberline {8.1}Geometric primitives}{17}{section.8.1}%
-\contentsline {subsection}{\texttt {Point.h}\hspace {0.2em}}{17}{section.8.1}%
-\contentsline {subsection}{\texttt {lineDistance.h}\hspace {0.2em}}{17}{lstnumber.8.1.28}%
-\contentsline {subsection}{\texttt {SegmentDistance.h}\hspace {0.2em}}{17}{lstnumber.8.2.4}%
-\contentsline {subsection}{\texttt {SegmentIntersection.h}\hspace {0.2em}}{17}{lstnumber.8.3.6}%
-\contentsline {subsection}{\texttt {lineIntersection.h}\hspace {0.2em}}{17}{lstnumber.8.4.13}%
-\contentsline {subsection}{\texttt {sideOf.h}\hspace {0.2em}}{17}{lstnumber.8.5.8}%
-\contentsline {subsection}{\texttt {OnSegment.h}\hspace {0.2em}}{17}{lstnumber.8.6.9}%
-\contentsline {subsection}{\texttt {linearTransformation.h}\hspace {0.2em}}{17}{lstnumber.8.7.3}%
-\contentsline {subsection}{\texttt {Angle.h}\hspace {0.2em}}{17}{lstnumber.8.8.6}%
-\contentsline {section}{\numberline {8.2}Circles}{18}{section.8.2}%
-\contentsline {subsection}{\texttt {CircleIntersection.h}\hspace {0.2em}}{18}{section.8.2}%
-\contentsline {subsection}{\texttt {CircleTangents.h}\hspace {0.2em}}{18}{lstnumber.8.10.11}%
-\contentsline {subsection}{\texttt {CirclePolygonIntersection.h}\hspace {0.2em}}{18}{lstnumber.8.11.13}%
-\contentsline {subsection}{\texttt {circumcircle.h}\hspace {0.2em}}{18}{lstnumber.8.12.19}%
-\contentsline {subsection}{\texttt {MinimumEnclosingCircle.h}\hspace {0.2em}}{18}{lstnumber.8.13.9}%
-\contentsline {section}{\numberline {8.3}Polygons}{18}{section.8.3}%
-\contentsline {subsection}{\texttt {InsidePolygon.h}\hspace {0.2em}}{18}{section.8.3}%
-\contentsline {subsection}{\texttt {PolygonArea.h}\hspace {0.2em}}{18}{lstnumber.8.15.11}%
-\contentsline {subsection}{\texttt {PolygonCenter.h}\hspace {0.2em}}{18}{lstnumber.8.16.6}%
-\contentsline {subsection}{\texttt {PolygonCut.h}\hspace {0.2em}}{19}{lstnumber.8.17.9}%
-\contentsline {subsection}{\texttt {ConvexHull.h}\hspace {0.2em}}{19}{lstnumber.8.18.13}%
-\contentsline {subsection}{\texttt {HullDiameter.h}\hspace {0.2em}}{19}{lstnumber.8.19.13}%
-\contentsline {subsection}{\texttt {PointInsideHull.h}\hspace {0.2em}}{19}{lstnumber.8.20.12}%
-\contentsline {subsection}{\texttt {LineHullIntersection.h}\hspace {0.2em}}{19}{lstnumber.8.21.14}%
-\contentsline {section}{\numberline {8.4}Misc. Point Set Problems}{19}{section.8.4}%
-\contentsline {subsection}{\texttt {ClosestPair.h}\hspace {0.2em}}{19}{section.8.4}%
-\contentsline {subsection}{\texttt {kdTree.h}\hspace {0.2em}}{19}{lstnumber.8.23.17}%
-\contentsline {subsection}{\texttt {FastDelaunay.h}\hspace {0.2em}}{20}{lstnumber.8.24.63}%
-\contentsline {section}{\numberline {8.5}3D}{20}{section.8.5}%
-\contentsline {subsection}{\texttt {PolyhedronVolume.h}\hspace {0.2em}}{20}{section.8.5}%
-\contentsline {subsection}{\texttt {Point3D.h}\hspace {0.2em}}{20}{lstnumber.8.26.6}%
-\contentsline {subsection}{\texttt {3dHull.h}\hspace {0.2em}}{20}{lstnumber.8.27.32}%
-\contentsline {subsection}{\texttt {sphericalDistance.h}\hspace {0.2em}}{21}{lstnumber.8.28.49}%
-\contentsline {chapter}{\numberline {9}Strings}{21}{chapter.9}%
+\contentsline {section}{\numberline {8.1}Geometric primitives}{15}{section.8.1}%
+\contentsline {subsection}{\texttt {Point.h}\hspace {0.2em}}{15}{section.8.1}%
+\contentsline {subsection}{\texttt {lineDistance.h}\hspace {0.2em}}{15}{lstnumber.8.1.28}%
+\contentsline {subsection}{\texttt {SegmentDistance.h}\hspace {0.2em}}{15}{lstnumber.8.2.4}%
+\contentsline {subsection}{\texttt {SegmentIntersection.h}\hspace {0.2em}}{16}{lstnumber.8.3.6}%
+\contentsline {subsection}{\texttt {lineIntersection.h}\hspace {0.2em}}{16}{lstnumber.8.4.13}%
+\contentsline {subsection}{\texttt {sideOf.h}\hspace {0.2em}}{16}{lstnumber.8.5.8}%
+\contentsline {subsection}{\texttt {OnSegment.h}\hspace {0.2em}}{16}{lstnumber.8.6.9}%
+\contentsline {subsection}{\texttt {linearTransformation.h}\hspace {0.2em}}{16}{lstnumber.8.7.3}%
+\contentsline {subsection}{\texttt {Angle.h}\hspace {0.2em}}{16}{lstnumber.8.8.6}%
+\contentsline {section}{\numberline {8.2}Circles}{16}{section.8.2}%
+\contentsline {subsection}{\texttt {CircleIntersection.h}\hspace {0.2em}}{16}{section.8.2}%
+\contentsline {subsection}{\texttt {CircleTangents.h}\hspace {0.2em}}{16}{lstnumber.8.10.11}%
+\contentsline {subsection}{\texttt {CirclePolygonIntersection.h}\hspace {0.2em}}{16}{lstnumber.8.11.13}%
+\contentsline {subsection}{\texttt {circumcircle.h}\hspace {0.2em}}{17}{lstnumber.8.12.19}%
+\contentsline {subsection}{\texttt {MinimumEnclosingCircle.h}\hspace {0.2em}}{17}{lstnumber.8.13.9}%
+\contentsline {section}{\numberline {8.3}Polygons}{17}{section.8.3}%
+\contentsline {subsection}{\texttt {InsidePolygon.h}\hspace {0.2em}}{17}{section.8.3}%
+\contentsline {subsection}{\texttt {PolygonArea.h}\hspace {0.2em}}{17}{lstnumber.8.15.11}%
+\contentsline {subsection}{\texttt {PolygonCenter.h}\hspace {0.2em}}{17}{lstnumber.8.16.6}%
+\contentsline {subsection}{\texttt {PolygonCut.h}\hspace {0.2em}}{17}{lstnumber.8.17.9}%
+\contentsline {subsection}{\texttt {ConvexHull.h}\hspace {0.2em}}{17}{lstnumber.8.18.13}%
+\contentsline {subsection}{\texttt {HullDiameter.h}\hspace {0.2em}}{17}{lstnumber.8.19.13}%
+\contentsline {subsection}{\texttt {PointInsideHull.h}\hspace {0.2em}}{17}{lstnumber.8.20.12}%
+\contentsline {subsection}{\texttt {LineHullIntersection.h}\hspace {0.2em}}{17}{lstnumber.8.21.14}%
+\contentsline {section}{\numberline {8.4}Misc. Point Set Problems}{18}{section.8.4}%
+\contentsline {subsection}{\texttt {ClosestPair.h}\hspace {0.2em}}{18}{section.8.4}%
+\contentsline {subsection}{\texttt {kdTree.h}\hspace {0.2em}}{18}{lstnumber.8.23.17}%
+\contentsline {subsection}{\texttt {FastDelaunay.h}\hspace {0.2em}}{18}{lstnumber.8.24.63}%
+\contentsline {section}{\numberline {8.5}3D}{19}{section.8.5}%
+\contentsline {subsection}{\texttt {PolyhedronVolume.h}\hspace {0.2em}}{19}{section.8.5}%
+\contentsline {subsection}{\texttt {Point3D.h}\hspace {0.2em}}{19}{lstnumber.8.26.6}%
+\contentsline {subsection}{\texttt {3dHull.h}\hspace {0.2em}}{19}{lstnumber.8.27.32}%
+\contentsline {subsection}{\texttt {sphericalDistance.h}\hspace {0.2em}}{19}{lstnumber.8.28.49}%
+\contentsline {chapter}{\numberline {9}Strings}{19}{chapter.9}%
 \ttl@stoptoc {chapters@8}
 \ttl@starttoc {chapters@9}
-\contentsline {section}{\texttt {KMP.h}\hspace {0.2em}}{21}{chapter.9}%
-\contentsline {section}{\texttt {Zfunc.h}\hspace {0.2em}}{21}{lstnumber.9.1.16}%
-\contentsline {section}{\texttt {Manacher.h}\hspace {0.2em}}{21}{lstnumber.9.2.12}%
-\contentsline {section}{\texttt {MinRotation.h}\hspace {0.2em}}{21}{lstnumber.9.3.13}%
-\contentsline {section}{\texttt {SuffixArray.h}\hspace {0.2em}}{21}{lstnumber.9.4.8}%
-\contentsline {section}{\texttt {SuffixTree.h}\hspace {0.2em}}{21}{lstnumber.9.5.23}%
-\contentsline {section}{\texttt {Hashing.h}\hspace {0.2em}}{22}{lstnumber.9.6.50}%
-\contentsline {section}{\texttt {AhoCorasick.h}\hspace {0.2em}}{22}{lstnumber.9.7.44}%
-\contentsline {chapter}{\numberline {10}Various}{22}{chapter.10}%
+\contentsline {section}{\texttt {KMP.h}\hspace {0.2em}}{19}{chapter.9}%
+\contentsline {section}{\texttt {Zfunc.h}\hspace {0.2em}}{19}{lstnumber.9.1.16}%
+\contentsline {section}{\texttt {Manacher.h}\hspace {0.2em}}{19}{lstnumber.9.2.12}%
+\contentsline {section}{\texttt {MinRotation.h}\hspace {0.2em}}{19}{lstnumber.9.3.13}%
+\contentsline {section}{\texttt {SuffixArray.h}\hspace {0.2em}}{19}{lstnumber.9.4.8}%
+\contentsline {section}{\texttt {SuffixTree.h}\hspace {0.2em}}{20}{lstnumber.9.5.23}%
+\contentsline {section}{\texttt {Hashing.h}\hspace {0.2em}}{20}{lstnumber.9.6.50}%
+\contentsline {section}{\texttt {AhoCorasick.h}\hspace {0.2em}}{20}{lstnumber.9.7.44}%
+\contentsline {chapter}{\numberline {10}Various}{21}{chapter.10}%
 \ttl@stoptoc {chapters@9}
 \ttl@starttoc {chapters@10}
-\contentsline {section}{\numberline {10.1}Intervals}{22}{section.10.1}%
-\contentsline {subsection}{\texttt {IntervalContainer.h}\hspace {0.2em}}{22}{section.10.1}%
-\contentsline {subsection}{\texttt {IntervalCover.h}\hspace {0.2em}}{22}{lstnumber.10.1.23}%
-\contentsline {subsection}{\texttt {ConstantIntervals.h}\hspace {0.2em}}{22}{lstnumber.10.2.19}%
-\contentsline {section}{\numberline {10.2}Misc. algorithms}{23}{section.10.2}%
-\contentsline {subsection}{\texttt {TernarySearch.h}\hspace {0.2em}}{23}{section.10.2}%
-\contentsline {subsection}{\texttt {LIS.h}\hspace {0.2em}}{23}{lstnumber.10.4.11}%
-\contentsline {subsection}{\texttt {FastKnapsack.h}\hspace {0.2em}}{23}{lstnumber.10.5.17}%
-\contentsline {section}{\numberline {10.3}Dynamic programming}{23}{section.10.3}%
-\contentsline {subsection}{\texttt {KnuthDP.h}\hspace {0.2em}}{23}{section.10.3}%
-\contentsline {subsection}{\texttt {DivideAndConquerDP.h}\hspace {0.2em}}{23}{lstnumber.10.7.1}%
-\contentsline {section}{\numberline {10.4}Debugging tricks}{23}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Optimization tricks}{23}{section.10.5}%
-\contentsline {subsection}{\numberline {10.5.1}Bit hacks}{23}{subsection.10.5.1}%
-\contentsline {subsection}{\numberline {10.5.2}Pragmas}{23}{subsection.10.5.2}%
-\contentsline {subsection}{\texttt {FastMod.h}\hspace {0.2em}}{23}{subsection.10.5.2}%
-\contentsline {subsection}{\texttt {FastInput.h}\hspace {0.2em}}{23}{lstnumber.10.9.8}%
-\contentsline {subsection}{\texttt {BumpAllocator.h}\hspace {0.2em}}{23}{lstnumber.10.10.17}%
-\contentsline {subsection}{\texttt {SmallPtr.h}\hspace {0.2em}}{24}{lstnumber.10.11.8}%
-\contentsline {subsection}{\texttt {BumpAllocatorSTL.h}\hspace {0.2em}}{24}{lstnumber.10.12.10}%
-\contentsline {subsection}{\texttt {SIMD.h}\hspace {0.2em}}{24}{lstnumber.10.13.14}%
-\contentsline {chapter}{\numberline {11}Minh Le's Part}{24}{chapter.11}%
+\contentsline {section}{\numberline {10.1}Intervals}{21}{section.10.1}%
+\contentsline {subsection}{\texttt {IntervalContainer.h}\hspace {0.2em}}{21}{section.10.1}%
+\contentsline {subsection}{\texttt {IntervalCover.h}\hspace {0.2em}}{21}{lstnumber.10.1.23}%
+\contentsline {subsection}{\texttt {ConstantIntervals.h}\hspace {0.2em}}{21}{lstnumber.10.2.19}%
+\contentsline {section}{\numberline {10.2}Misc. algorithms}{21}{section.10.2}%
+\contentsline {subsection}{\texttt {TernarySearch.h}\hspace {0.2em}}{21}{section.10.2}%
+\contentsline {subsection}{\texttt {LIS.h}\hspace {0.2em}}{21}{lstnumber.10.4.11}%
+\contentsline {subsection}{\texttt {FastKnapsack.h}\hspace {0.2em}}{21}{lstnumber.10.5.17}%
+\contentsline {section}{\numberline {10.3}Dynamic programming}{21}{section.10.3}%
+\contentsline {subsection}{\texttt {KnuthDP.h}\hspace {0.2em}}{21}{section.10.3}%
+\contentsline {subsection}{\texttt {DivideAndConquerDP.h}\hspace {0.2em}}{21}{lstnumber.10.7.1}%
+\contentsline {section}{\numberline {10.4}Debugging tricks}{22}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Optimization tricks}{22}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Bit hacks}{22}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Pragmas}{22}{subsection.10.5.2}%
+\contentsline {subsection}{\texttt {FastMod.h}\hspace {0.2em}}{22}{subsection.10.5.2}%
+\contentsline {subsection}{\texttt {FastInput.h}\hspace {0.2em}}{22}{lstnumber.10.9.8}%
+\contentsline {subsection}{\texttt {BumpAllocator.h}\hspace {0.2em}}{22}{lstnumber.10.10.17}%
+\contentsline {subsection}{\texttt {SmallPtr.h}\hspace {0.2em}}{22}{lstnumber.10.11.8}%
+\contentsline {subsection}{\texttt {BumpAllocatorSTL.h}\hspace {0.2em}}{22}{lstnumber.10.12.10}%
+\contentsline {subsection}{\texttt {SIMD.h}\hspace {0.2em}}{22}{lstnumber.10.13.14}%
+\contentsline {chapter}{\numberline {11}Minh Le's Part}{22}{chapter.11}%
 \ttl@stoptoc {chapters@10}
 \ttl@starttoc {chapters@11}
-\contentsline {section}{\numberline {11.1}SegmentTree}{24}{section.11.1}%
-\contentsline {subsection}{\numberline {11.1.1}Lazysegtree}{24}{subsection.11.1.1}%
-\contentsline {subsection}{\texttt {lazysegtree.h}\hspace {0.2em}}{24}{subsection.11.1.1}%
-\contentsline {subsection}{\numberline {11.1.2}GSS problem}{24}{subsection.11.1.2}%
-\contentsline {subsection}{\texttt {gss.h}\hspace {0.2em}}{24}{subsection.11.1.2}%
-\contentsline {subsection}{\numberline {11.1.3}GSS problem}{25}{subsection.11.1.3}%
-\contentsline {subsection}{\texttt {segtree.h}\hspace {0.2em}}{25}{subsection.11.1.3}%
-\contentsline {section}{\numberline {11.2}Disjoint Set Union}{25}{section.11.2}%
-\contentsline {subsection}{\texttt {dsu.h}\hspace {0.2em}}{25}{section.11.2}%
-\contentsline {section}{\numberline {11.3}FenwickTree}{25}{section.11.3}%
-\contentsline {subsection}{\texttt {fenwicktree.h}\hspace {0.2em}}{25}{section.11.3}%
-\contentsline {section}{\numberline {11.4}Bitwise}{25}{section.11.4}%
-\contentsline {subsection}{\texttt {bitwise.h}\hspace {0.2em}}{25}{section.11.4}%
-\contentsline {section}{\numberline {11.5}Shortest Path}{26}{section.11.5}%
-\contentsline {subsection}{\numberline {11.5.1}Dijkstra}{26}{subsection.11.5.1}%
-\contentsline {subsection}{\texttt {dijkstra.h}\hspace {0.2em}}{26}{subsection.11.5.1}%
-\contentsline {subsection}{\numberline {11.5.2}Bellman-Ford}{26}{subsection.11.5.2}%
-\contentsline {subsection}{\texttt {bellmanford.h}\hspace {0.2em}}{26}{subsection.11.5.2}%
-\contentsline {subsection}{\numberline {11.5.3}Floyd Warshall}{26}{subsection.11.5.3}%
-\contentsline {subsection}{\texttt {floyd-warshall.h}\hspace {0.2em}}{26}{subsection.11.5.3}%
-\contentsline {subsection}{\numberline {11.5.4}Trace path}{26}{subsection.11.5.4}%
-\contentsline {subsection}{\texttt {tracepath.h}\hspace {0.2em}}{26}{subsection.11.5.4}%
-\contentsline {subsection}{\numberline {11.5.5}0-1 BFS}{26}{subsection.11.5.5}%
-\contentsline {subsection}{\texttt {0-1BFS.h}\hspace {0.2em}}{26}{subsection.11.5.5}%
-\contentsline {section}{\numberline {11.6}Min Spanning Tree}{27}{section.11.6}%
-\contentsline {subsection}{\numberline {11.6.1}Kruskal}{27}{subsection.11.6.1}%
-\contentsline {subsection}{\texttt {kruskal.h}\hspace {0.2em}}{27}{subsection.11.6.1}%
-\contentsline {subsection}{\numberline {11.6.2}Min Spanning Subgraph}{27}{subsection.11.6.2}%
-\contentsline {subsection}{\texttt {mss.h}\hspace {0.2em}}{27}{subsection.11.6.2}%
-\contentsline {subsection}{\numberline {11.6.3}Second-Best Spanning Tree}{27}{subsection.11.6.3}%
-\contentsline {subsection}{\texttt {sbst.h}\hspace {0.2em}}{27}{subsection.11.6.3}%
-\contentsline {section}{\numberline {11.7}Math Related}{27}{section.11.7}%
-\contentsline {subsection}{\numberline {11.7.1}Prime Check}{27}{subsection.11.7.1}%
-\contentsline {subsection}{\texttt {isPrime.h}\hspace {0.2em}}{27}{subsection.11.7.1}%
-\contentsline {subsection}{\numberline {11.7.2}Sieve of Eratosthenes}{27}{subsection.11.7.2}%
-\contentsline {subsection}{\texttt {sieve.h}\hspace {0.2em}}{27}{subsection.11.7.2}%
-\contentsline {subsection}{\numberline {11.7.3}Factorize a number}{27}{subsection.11.7.3}%
-\contentsline {subsection}{\texttt {factorize.h}\hspace {0.2em}}{27}{subsection.11.7.3}%
-\contentsline {section}{\numberline {11.8}Sorting}{28}{section.11.8}%
-\contentsline {subsection}{\texttt {sorting.h}\hspace {0.2em}}{28}{section.11.8}%
-\contentsline {section}{\numberline {11.9}Set and Map operation}{28}{section.11.9}%
-\contentsline {section}{\numberline {11.10}Others}{28}{section.11.10}%
-\contentsline {subsection}{\numberline {11.10.1}RMQ - ST}{28}{subsection.11.10.1}%
-\contentsline {subsection}{\texttt {RMQ-ST.h}\hspace {0.2em}}{28}{subsection.11.10.1}%
-\contentsline {subsection}{\numberline {11.10.2}Lowest Common Ancestor}{28}{subsection.11.10.2}%
-\contentsline {subsection}{\texttt {LCA.h}\hspace {0.2em}}{28}{subsection.11.10.2}%
-\contentsline {subsection}{\numberline {11.10.3}Flood Fill}{28}{subsection.11.10.3}%
-\contentsline {subsection}{\numberline {11.10.4}Calculating Tree Diameter}{28}{subsection.11.10.4}%
-\contentsline {subsection}{\texttt {treediameter.h}\hspace {0.2em}}{28}{subsection.11.10.4}%
+\contentsline {section}{\numberline {11.1}Graph}{22}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}DFS}{22}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.1.2}BFS}{22}{subsection.11.1.2}%
+\contentsline {subsection}{\texttt {bfs.h}\hspace {0.2em}}{22}{subsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.1.3}Flood Fill}{23}{subsection.11.1.3}%
+\contentsline {subsection}{\texttt {floodfill.h}\hspace {0.2em}}{23}{subsection.11.1.3}%
+\contentsline {section}{\numberline {11.2}SegmentTree}{23}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Lazysegtree}{23}{subsection.11.2.1}%
+\contentsline {subsection}{\texttt {lazysegtree.h}\hspace {0.2em}}{23}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}GSS problem}{24}{subsection.11.2.2}%
+\contentsline {subsection}{\texttt {gss.h}\hspace {0.2em}}{24}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Seg Tree}{24}{subsection.11.2.3}%
+\contentsline {subsection}{\texttt {segtree.h}\hspace {0.2em}}{24}{subsection.11.2.3}%
+\contentsline {section}{\numberline {11.3}Disjoint Set Union}{24}{section.11.3}%
+\contentsline {subsection}{\texttt {dsu.h}\hspace {0.2em}}{24}{section.11.3}%
+\contentsline {section}{\numberline {11.4}FenwickTree}{25}{section.11.4}%
+\contentsline {subsection}{\texttt {fenwicktree.h}\hspace {0.2em}}{25}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Bitwise}{25}{section.11.5}%
+\contentsline {subsection}{\texttt {bitwise.h}\hspace {0.2em}}{25}{section.11.5}%
+\contentsline {section}{\numberline {11.6}Binary Lifting}{25}{section.11.6}%
+\contentsline {subsection}{\texttt {binarylifting.h}\hspace {0.2em}}{25}{section.11.6}%
+\contentsline {subsection}{\numberline {11.6.1}Find kth Ancestor, dist <= x}{25}{subsection.11.6.1}%
+\contentsline {subsection}{\texttt {binarylifting2.h}\hspace {0.2em}}{25}{subsection.11.6.1}%
+\contentsline {subsection}{\numberline {11.6.2}LCA - Binary Lifting}{25}{subsection.11.6.2}%
+\contentsline {subsection}{\numberline {11.6.3}Dynamic LCA}{25}{subsection.11.6.3}%
+\contentsline {subsection}{\texttt {dynamicLCA.h}\hspace {0.2em}}{25}{subsection.11.6.3}%
+\contentsline {section}{\numberline {11.7}Shortest Path}{26}{section.11.7}%
+\contentsline {subsection}{\numberline {11.7.1}Dijkstra}{26}{subsection.11.7.1}%
+\contentsline {subsection}{\texttt {dijkstra.h}\hspace {0.2em}}{26}{subsection.11.7.1}%
+\contentsline {subsection}{\numberline {11.7.2}Bellman-Ford}{26}{subsection.11.7.2}%
+\contentsline {subsection}{\texttt {bellmanford.h}\hspace {0.2em}}{26}{subsection.11.7.2}%
+\contentsline {subsection}{\numberline {11.7.3}Floyd Warshall}{26}{subsection.11.7.3}%
+\contentsline {subsection}{\texttt {floyd-warshall.h}\hspace {0.2em}}{26}{subsection.11.7.3}%
+\contentsline {subsection}{\numberline {11.7.4}Trace path}{26}{subsection.11.7.4}%
+\contentsline {subsection}{\texttt {tracepath.h}\hspace {0.2em}}{26}{subsection.11.7.4}%
+\contentsline {subsection}{\numberline {11.7.5}0-1 BFS}{27}{subsection.11.7.5}%
+\contentsline {subsection}{\texttt {0-1BFS.h}\hspace {0.2em}}{27}{subsection.11.7.5}%
+\contentsline {section}{\numberline {11.8}Min Spanning Tree}{27}{section.11.8}%
+\contentsline {subsection}{\numberline {11.8.1}Kruskal}{27}{subsection.11.8.1}%
+\contentsline {subsection}{\texttt {kruskal.h}\hspace {0.2em}}{27}{subsection.11.8.1}%
+\contentsline {subsection}{\numberline {11.8.2}Min Spanning Subgraph}{27}{subsection.11.8.2}%
+\contentsline {subsection}{\texttt {mss.h}\hspace {0.2em}}{27}{subsection.11.8.2}%
+\contentsline {subsection}{\numberline {11.8.3}Second-Best Spanning Tree}{27}{subsection.11.8.3}%
+\contentsline {subsection}{\texttt {sbst.h}\hspace {0.2em}}{27}{subsection.11.8.3}%
+\contentsline {section}{\numberline {11.9}Math Related}{27}{section.11.9}%
+\contentsline {subsection}{\numberline {11.9.1}Prime Check}{27}{subsection.11.9.1}%
+\contentsline {subsection}{\texttt {isPrime.h}\hspace {0.2em}}{27}{subsection.11.9.1}%
+\contentsline {subsection}{\numberline {11.9.2}Sieve of Eratosthenes}{27}{subsection.11.9.2}%
+\contentsline {subsection}{\texttt {sieve.h}\hspace {0.2em}}{27}{subsection.11.9.2}%
+\contentsline {subsection}{\numberline {11.9.3}Factorize a number}{27}{subsection.11.9.3}%
+\contentsline {subsection}{\texttt {factorize.h}\hspace {0.2em}}{27}{subsection.11.9.3}%
+\contentsline {subsection}{\numberline {11.9.4}GCD and LCM}{28}{subsection.11.9.4}%
+\contentsline {subsection}{\texttt {gcdlcm.h}\hspace {0.2em}}{28}{subsection.11.9.4}%
+\contentsline {section}{\numberline {11.10}Sorting}{28}{section.11.10}%
+\contentsline {subsection}{\texttt {sorting.h}\hspace {0.2em}}{28}{section.11.10}%
+\contentsline {section}{\numberline {11.11}Set and Map operation}{28}{section.11.11}%
+\contentsline {section}{\numberline {11.12}Others}{28}{section.11.12}%
+\contentsline {subsection}{\numberline {11.12.1}RMQ - ST}{28}{subsection.11.12.1}%
+\contentsline {subsection}{\texttt {RMQ-ST.h}\hspace {0.2em}}{28}{subsection.11.12.1}%
+\contentsline {subsection}{\numberline {11.12.2}Lowest Common Ancestor}{28}{subsection.11.12.2}%
+\contentsline {subsection}{\texttt {LCA.h}\hspace {0.2em}}{28}{subsection.11.12.2}%
+\contentsline {subsection}{\numberline {11.12.3}Calculating Tree Diameter}{28}{subsection.11.12.3}%
+\contentsline {subsection}{\texttt {treediameter.h}\hspace {0.2em}}{28}{subsection.11.12.3}%
+\contentsline {section}{\numberline {11.13}Dynamic Programming}{29}{section.11.13}%
+\contentsline {subsection}{\numberline {11.13.1}Max 1-D range sum}{29}{subsection.11.13.1}%
+\contentsline {subsection}{\numberline {11.13.2}Max 2-D range sum}{29}{subsection.11.13.2}%
+\contentsline {subsection}{\numberline {11.13.3}Longest range sum divisible by k}{29}{subsection.11.13.3}%
+\contentsline {subsection}{\texttt {qbseq.h}\hspace {0.2em}}{29}{subsection.11.13.3}%
+\contentsline {subsection}{\numberline {11.13.4}Longest common substring}{29}{subsection.11.13.4}%
+\contentsline {subsection}{\texttt {lcs.h}\hspace {0.2em}}{29}{subsection.11.13.4}%
+\contentsline {subsection}{\numberline {11.13.5}Coin Exchange 1}{29}{subsection.11.13.5}%
+\contentsline {subsection}{\texttt {coinexchange.h}\hspace {0.2em}}{29}{subsection.11.13.5}%
+\contentsline {subsection}{\numberline {11.13.6}Coin Exchange 2 - Counting Solutions}{29}{subsection.11.13.6}%
+\contentsline {subsection}{\texttt {coinexchange2.h}\hspace {0.2em}}{29}{subsection.11.13.6}%
 \ttl@stoptoc {chapters@11}
 \ttl@starttoc {chapters@12}
 \contentsfinish 

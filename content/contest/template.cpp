@@ -5,8 +5,7 @@ typedef long long ll;
 typedef vector<int> vi;
 typedef pair<int,int> pi;
 typedef tuple<int, int, int> iii;
-#define REP(i, a, b) for (int i = a; i < b; i++)
-#define MOD 1000007
+
 #define f first
 #define s second
 #define PB push_back
@@ -24,7 +23,7 @@ typedef tuple<int, int, int> iii;
 #define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
 
 const int INF = 1e9 + 5;
-
+const int MOD = 1000007;
 
 int main()
 {

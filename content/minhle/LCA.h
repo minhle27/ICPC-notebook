@@ -3,7 +3,7 @@
  * Date: 2018-07-15
  * License: CC0
  * Source: Wikipedia
- * Description: Lowest Common Ancestor
+ * Description: Lowest Common Ancestor, Euler Tour + RMQ
  * Time: O(M\log N) 
  * Status: 
  */

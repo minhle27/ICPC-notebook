@@ -8,6 +8,7 @@
  * Status: 
  */
 
+// M[i][j] is the index of the minimum value in the range starting at i and has a length of 2^j
 void process2(int M[MAXN][LOGMAXN], int A[MAXN], int N)
 {
   int i, j;
@@ -22,3 +23,6 @@ void process2(int M[MAXN][LOGMAXN], int A[MAXN], int N)
       else
         M[i][j] = M[i + (1 << (j - 1))][j - 1];
 }
+
+// Find RMQ(i, j) by comparing two ranges of length 2^k that cover [i,j].
+// One starts at i and the other ends at j
