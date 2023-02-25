@@ -110,4 +110,6 @@
 \contentsline {subsection}{\numberline {11.13.3}Longest common substring}{25}{subsection.11.13.3}%
 \contentsline {subsection}{\numberline {11.13.4}Coin Exchange 1}{25}{subsection.11.13.4}%
 \contentsline {subsection}{\numberline {11.13.5}Coin Exchange 2 - Counting Solutions}{25}{subsection.11.13.5}%
+\contentsline {subsection}{\numberline {11.13.6}Knapsack 1}{25}{subsection.11.13.6}%
+\contentsline {subsection}{\numberline {11.13.7}Knapsack 2}{25}{subsection.11.13.7}%
 \contentsfinish 
