@@ -53,17 +53,17 @@
 \contentsline {chapter}{\numberline {8}Geometry}{11}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Geometric primitives}{11}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Circles}{12}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Polygons}{12}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Polygons}{13}{section.8.3}%
 \contentsline {section}{\numberline {8.4}Misc. Point Set Problems}{13}{section.8.4}%
-\contentsline {section}{\numberline {8.5}3D}{13}{section.8.5}%
+\contentsline {section}{\numberline {8.5}3D}{14}{section.8.5}%
 \contentsline {chapter}{\numberline {9}Strings}{14}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Various}{15}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Intervals}{15}{section.10.1}%
+\contentsline {chapter}{\numberline {10}Various}{16}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Intervals}{16}{section.10.1}%
 \contentsline {section}{\numberline {10.2}Misc. algorithms}{16}{section.10.2}%
 \contentsline {section}{\numberline {10.3}Dynamic programming}{16}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Debugging tricks}{16}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Optimization tricks}{16}{section.10.5}%
-\contentsline {subsection}{\numberline {10.5.1}Bit hacks}{16}{subsection.10.5.1}%
+\contentsline {section}{\numberline {10.4}Debugging tricks}{17}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Optimization tricks}{17}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Bit hacks}{17}{subsection.10.5.1}%
 \contentsline {chapter}{\numberline {11}NEW}{17}{chapter.11}%
 \contentsline {section}{\numberline {11.1}Trie}{17}{section.11.1}%
 \contentsline {section}{\numberline {11.2}Graph}{17}{section.11.2}%
@@ -72,20 +72,20 @@
 \contentsline {subsection}{\numberline {11.2.3}Flood Fill}{18}{subsection.11.2.3}%
 \contentsline {subsection}{\numberline {11.2.4}Bipartite graph check}{18}{subsection.11.2.4}%
 \contentsline {subsection}{\numberline {11.2.5}Cycle Check}{18}{subsection.11.2.5}%
-\contentsline {subsection}{\numberline {11.2.6}Shortest Cycle}{18}{subsection.11.2.6}%
+\contentsline {subsection}{\numberline {11.2.6}Shortest Cycle}{19}{subsection.11.2.6}%
 \contentsline {section}{\numberline {11.3}SegmentTree}{19}{section.11.3}%
 \contentsline {subsection}{\numberline {11.3.1}Lazysegtree}{19}{subsection.11.3.1}%
 \contentsline {subsection}{\numberline {11.3.2}GSS problem}{19}{subsection.11.3.2}%
-\contentsline {subsection}{\numberline {11.3.3}Seg Tree}{19}{subsection.11.3.3}%
+\contentsline {subsection}{\numberline {11.3.3}Seg Tree}{20}{subsection.11.3.3}%
 \contentsline {section}{\numberline {11.4}Disjoint Set Union}{20}{section.11.4}%
 \contentsline {section}{\numberline {11.5}FenwickTree}{20}{section.11.5}%
 \contentsline {section}{\numberline {11.6}Bitwise}{20}{section.11.6}%
-\contentsline {section}{\numberline {11.7}Binary Lifting}{20}{section.11.7}%
+\contentsline {section}{\numberline {11.7}Binary Lifting}{21}{section.11.7}%
 \contentsline {subsection}{\numberline {11.7.1}Find kth Ancestor, dist <= x}{21}{subsection.11.7.1}%
 \contentsline {subsection}{\numberline {11.7.2}LCA - Binary Lifting}{21}{subsection.11.7.2}%
 \contentsline {subsection}{\numberline {11.7.3}Dynamic LCA}{21}{subsection.11.7.3}%
-\contentsline {section}{\numberline {11.8}Shortest Path}{21}{section.11.8}%
-\contentsline {subsection}{\numberline {11.8.1}Dijkstra}{21}{subsection.11.8.1}%
+\contentsline {section}{\numberline {11.8}Shortest Path}{22}{section.11.8}%
+\contentsline {subsection}{\numberline {11.8.1}Dijkstra}{22}{subsection.11.8.1}%
 \contentsline {subsection}{\numberline {11.8.2}Bellman-Ford}{22}{subsection.11.8.2}%
 \contentsline {subsection}{\numberline {11.8.3}Floyd Warshall}{22}{subsection.11.8.3}%
 \contentsline {subsection}{\numberline {11.8.4}Trace path}{22}{subsection.11.8.4}%
@@ -100,14 +100,14 @@
 \contentsline {subsection}{\numberline {11.10.3}Factorize a number}{23}{subsection.11.10.3}%
 \contentsline {subsection}{\numberline {11.10.4}GCD and LCM}{23}{subsection.11.10.4}%
 \contentsline {section}{\numberline {11.11}Sorting}{23}{section.11.11}%
-\contentsline {section}{\numberline {11.12}Others}{23}{section.11.12}%
-\contentsline {subsection}{\numberline {11.12.1}RMQ - ST}{23}{subsection.11.12.1}%
+\contentsline {section}{\numberline {11.12}Others}{24}{section.11.12}%
+\contentsline {subsection}{\numberline {11.12.1}RMQ - ST}{24}{subsection.11.12.1}%
 \contentsline {subsection}{\numberline {11.12.2}Lowest Common Ancestor}{24}{subsection.11.12.2}%
 \contentsline {subsection}{\numberline {11.12.3}Calculating Tree Diameter}{24}{subsection.11.12.3}%
 \contentsline {section}{\numberline {11.13}Dynamic Programming}{24}{section.11.13}%
 \contentsline {subsection}{\numberline {11.13.1}Max 1-D range sum}{24}{subsection.11.13.1}%
-\contentsline {subsection}{\numberline {11.13.2}Longest range sum divisible by k}{24}{subsection.11.13.2}%
-\contentsline {subsection}{\numberline {11.13.3}Longest common substring}{24}{subsection.11.13.3}%
+\contentsline {subsection}{\numberline {11.13.2}Longest range sum divisible by k}{25}{subsection.11.13.2}%
+\contentsline {subsection}{\numberline {11.13.3}Longest common substring}{25}{subsection.11.13.3}%
 \contentsline {subsection}{\numberline {11.13.4}Coin Exchange 1}{25}{subsection.11.13.4}%
 \contentsline {subsection}{\numberline {11.13.5}Coin Exchange 2 - Counting Solutions}{25}{subsection.11.13.5}%
 \contentsfinish 
