@@ -3,8 +3,8 @@
  * Date: 2018-07-15
  * License: CC0
  * Source: Wikipedia
- * Description: Lowest Common Ancestor, Binary Lifting
- * Time: O(MlogN) 
+ * Description: LCA, Binary Lifting
+ * Time: O(M\log N) for both range queries and updates a range
  * Status: 
  */
 
@@ -38,7 +38,7 @@ int lca(int u, int v) {
     // Find LCA(u,v)
     int k = __lg(h[u]);
     for (int j = k; j >= 0; --j)
-        if (up[u][j] != up[v][j]) // if 2^jth ancestors of u and v are different
+        if (up[u][j] != up[v][j]) // if (1<<j)th ancestors of u and v are different
             u = up[u][j], v = up[v][j];
     return up[u][0];
 }

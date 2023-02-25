@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.14)  24 FEB 2023 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.14)  24 FEB 2023 21:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -913,16 +913,6 @@ runsystem(python3 content/tex/preprocessor.py --print-header "EdgeColoring.h|Edg
  (./build/header2.tmp) [9])
 runsystem(rm -f build/kactl.tmp)...executed.
 
-runsystem(python3 content/tex/preprocessor.py -i "content/graph/MaximalCliques.h" -o build/kactl.tmp )...executed.
-
- (./build/kactl.tmp)
-runsystem(rm -f build/kactl.tmp)...executed.
-
-runsystem(python3 content/tex/preprocessor.py -i "content/graph/MaximumIndependentSet.h" -o build/kactl.tmp )...executed.
-
- (./build/kactl.tmp)
-runsystem(rm -f build/kactl.tmp)...executed.
-
 runsystem(python3 content/tex/preprocessor.py -i "content/graph/BinaryLifting.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
@@ -940,15 +930,15 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/graph/LinkCutTree.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "|LinkCutTree.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [10])
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/graph/DirectedMST.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)) (./content/geometry/chapter.tex
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "DirectedMST.h|DirectedMST.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [10])) (./content/geometry/chapter.tex
 Chapter 8.
 runsystem(rm -f build/kactl.tmp)...executed.
 
@@ -960,7 +950,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/lineDistance.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/lineDistance.pdf, id=1603, 42.67899pt x 42.67899pt>
+<content/geometry/lineDistance.pdf, id=1613, 42.67899pt x 42.67899pt>
 File: content/geometry/lineDistance.pdf Graphic file (type pdf)
 <use content/geometry/lineDistance.pdf>
 Package pdftex.def Info: content/geometry/lineDistance.pdf  used on input line 11.
@@ -971,7 +961,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/SegmentDistance.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/SegmentDistance.pdf, id=1604, 42.67899pt x 42.67899pt>
+<content/geometry/SegmentDistance.pdf, id=1614, 42.67899pt x 42.67899pt>
 File: content/geometry/SegmentDistance.pdf Graphic file (type pdf)
 <use content/geometry/SegmentDistance.pdf>
 Package pdftex.def Info: content/geometry/SegmentDistance.pdf  used on input line 14.
@@ -982,7 +972,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/SegmentIntersection.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/SegmentIntersection.pdf, id=1605, 42.67899pt x 42.67899pt>
+<content/geometry/SegmentIntersection.pdf, id=1615, 42.67899pt x 42.67899pt>
 File: content/geometry/SegmentIntersection.pdf Graphic file (type pdf)
 <use content/geometry/SegmentIntersection.pdf>
 Package pdftex.def Info: content/geometry/SegmentIntersection.pdf  used on input line 17.
@@ -993,19 +983,20 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/lineIntersection.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/lineIntersection.pdf, id=1606, 42.67899pt x 42.67899pt>
+<content/geometry/lineIntersection.pdf, id=1616, 42.67899pt x 42.67899pt>
 File: content/geometry/lineIntersection.pdf Graphic file (type pdf)
 <use content/geometry/lineIntersection.pdf>
 Package pdftex.def Info: content/geometry/lineIntersection.pdf  used on input line 17.
 (pdftex.def)             Requested size: 42.67912pt x 42.68211pt.
-runsystem(python3 content/tex/preprocessor.py --print-header "lineIntersection.h|lineIntersection.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [11 <./content/geometry/lineDistance.pdf> <./content/geometry/SegmentDistance.pdf> <./content/geometry/SegmentIntersection.pdf>])
+)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/sideOf.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "sideOf.h|sideOf.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [11 <./content/geometry/lineDistance.pdf> <./content/geometry/SegmentDistance.pdf> <./content/geometry/SegmentIntersection.pdf> <./content/geometry/lineIntersection.pdf>])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/OnSegment.h" -o build/kactl.tmp )...executed.
@@ -1016,7 +1007,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/linearTransformation.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/linearTransformation.pdf, id=1850, 42.67899pt x 42.67899pt>
+<content/geometry/linearTransformation.pdf, id=1878, 42.67899pt x 42.67899pt>
 File: content/geometry/linearTransformation.pdf Graphic file (type pdf)
 <use content/geometry/linearTransformation.pdf>
 Package pdftex.def Info: content/geometry/linearTransformation.pdf  used on input line 13.
@@ -1052,7 +1043,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/circumcircle.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/circumcircle.pdf, id=1851, 42.67899pt x 42.67899pt>
+<content/geometry/circumcircle.pdf, id=1879, 42.67899pt x 42.67899pt>
 File: content/geometry/circumcircle.pdf Graphic file (type pdf)
 <use content/geometry/circumcircle.pdf>
 Package pdftex.def Info: content/geometry/circumcircle.pdf  used on input line 12.
@@ -1063,14 +1054,14 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/MinimumEnclosingCircle.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
-runsystem(python3 content/tex/preprocessor.py --print-header "MinimumEnclosingCircle.h|MinimumEnclosingCircle.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [12 <./content/geometry/lineIntersection.pdf> <./content/geometry/linearTransformation.pdf> <./content/geometry/circumcircle.pdf>]
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/InsidePolygon.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
+runsystem(python3 content/tex/preprocessor.py --print-header "InsidePolygon.h|InsidePolygon.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [12 <./content/geometry/linearTransformation.pdf> <./content/geometry/circumcircle.pdf>]
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/PolygonArea.h" -o build/kactl.tmp )...executed.
@@ -1086,7 +1077,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/PolygonCut.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/PolygonCut.pdf, id=2088, 42.67899pt x 42.67899pt>
+<content/geometry/PolygonCut.pdf, id=2096, 42.67899pt x 42.67899pt>
 File: content/geometry/PolygonCut.pdf Graphic file (type pdf)
 <use content/geometry/PolygonCut.pdf>
 Package pdftex.def Info: content/geometry/PolygonCut.pdf  used on input line 15.
@@ -1097,7 +1088,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/ConvexHull.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-<content/geometry/ConvexHull.pdf, id=2089, 42.67899pt x 42.67899pt>
+<content/geometry/ConvexHull.pdf, id=2097, 42.67899pt x 42.67899pt>
 File: content/geometry/ConvexHull.pdf Graphic file (type pdf)
 <use content/geometry/ConvexHull.pdf>
 Package pdftex.def Info: content/geometry/ConvexHull.pdf  used on input line 14.
@@ -1122,10 +1113,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/ClosestPair.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "ClosestPair.h|ClosestPair.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [13 <./content/geometry/PolygonCut.pdf> <./content/geometry/ConvexHull.pdf>])
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/PolyhedronVolume.h" -o build/kactl.tmp )...executed.
@@ -1135,7 +1123,10 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/Point3D.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "Point3D.h|Point3D.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [13 <./content/geometry/PolygonCut.pdf> <./content/geometry/ConvexHull.pdf>])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/3dHull.h" -o build/kactl.tmp )...executed.
@@ -1167,14 +1158,14 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/MinRotation.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
-runsystem(python3 content/tex/preprocessor.py --print-header "MinRotation.h|MinRotation.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [14]
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/SuffixArray.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
+runsystem(python3 content/tex/preprocessor.py --print-header "SuffixArray.h|SuffixArray.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [14]
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/SuffixTree.h" -o build/kactl.tmp )...executed.
@@ -1189,16 +1180,16 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/AhoCorasick.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "AhoCorasick.h|AhoCorasick.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [15])) (./content/various/chapter.tex
+ (./build/kactl.tmp)) (./content/various/chapter.tex
 Chapter 10.
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/various/IntervalContainer.h" -o build/kactl.tmp )...executed.
 
-(./build/kactl.tmp)
+(./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "IntervalContainer.h|IntervalContainer.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [15])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/various/IntervalCover.h" -o build/kactl.tmp )...executed.
@@ -1238,24 +1229,52 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/various/DivideAndConquerDP.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp)) (./content/minhle/chapter.tex
+Chapter 11.
 runsystem(python3 content/tex/preprocessor.py --print-header "DivideAndConquerDP.h|DivideAndConquerDP.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [16]) (./content/minhle/chapter.tex
-Chapter 11.
+(./build/header2.tmp) [16]
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/trie.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/dfs.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/bfs.h" -o build/kactl.tmp )...executed.
 
-(./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "|bfs.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [17])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/floodfill.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "floodfill.h|floodfill.h" -o build/header2.tmp)...executed.
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
 
- (./build/header2.tmp) [17])
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/bipartitegraph.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/cyclecheck.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/shortestcycle.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "shortestcycle.h|shortestcycle.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [18])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/lazysegtree.h" -o build/kactl.tmp )...executed.
@@ -1273,7 +1292,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/minhle/segtree.h" -o b
  (./build/kactl.tmp
 runsystem(python3 content/tex/preprocessor.py --print-header "segtree.h|segtree.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [18])
+ (./build/header2.tmp) [19])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/dsu.h" -o build/kactl.tmp )...executed.
@@ -1296,15 +1315,20 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/binarylifting.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "binarylifting.h|binarylifting.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [20])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/binarylifting2.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "binarylifting2.h|binarylifting2.h" -o build/header2.tmp)...executed.
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
 
- (./build/header2.tmp) [19])
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/lcabl.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/dynamicLCA.h" -o build/kactl.tmp )...executed.
@@ -1314,7 +1338,10 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/dijkstra.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "dijkstra.h|dijkstra.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [21])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/bellmanford.h" -o build/kactl.tmp )...executed.
@@ -1324,10 +1351,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/floyd-warshall.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "bellmanford.h|floyd-warshall.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [20])
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/tracepath.h" -o build/kactl.tmp )...executed.
@@ -1342,7 +1366,10 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/kruskal.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "kruskal.h|kruskal.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [22])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/mss.h" -o build/kactl.tmp )...executed.
@@ -1362,10 +1389,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/sieve.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "sieve.h|sieve.h" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [21])
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/factorize.h" -o build/kactl.tmp )...executed.
@@ -1390,15 +1414,20 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/LCA.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "RMQ-ST.h|LCA.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [23])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/treediameter.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "treediameter.h|treediameter.h" -o build/header2.tmp)...executed.
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
 
- (./build/header2.tmp) [22])
+runsystem(python3 content/tex/preprocessor.py -i "content/minhle/mrs1D.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/qbseq.h" -o build/kactl.tmp )...executed.
@@ -1408,7 +1437,10 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/lcs.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "lcs.h|lcs.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [24])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/coinexchange.h" -o build/kactl.tmp )...executed.
@@ -1419,198 +1451,9 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/minhle/coinexchange2.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp))
-runsystem(python3 content/tex/preprocessor.py --print-header "coinexchange2.h|coinexchange2.h" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "|coinexchange2.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [23] (./content/appendix/chapter.tex
-pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2 \chapter{Techniques}
-                        
-Chapter A.
-runsystem(rm -f build/kactl.tmp)...executed.
-
-runsystem(python3 content/tex/preprocessor.py -i "content/appendix/techniques.txt" -o build/kactl.tmp -l raw)...executed.
-
-(./build/kactl.tmp
-pdfTeX warning (ext4): destination with the same identifier (name{lstlisting.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 ...ing}[language=raw,caption={techniques.txt}]
-                                                  
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.4 Recursion
-             
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 Divide 
-           and conquer
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.6 	Finding 
-             interesting points in N log N
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 Algorithm 
-              analysis
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.8 	Master 
-            theorem
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.9 	Amortized 
-               time complexity
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.10 Greedy 
-            algorithm
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.11 	Scheduling
-                
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.9}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 	Max 
-          contiguous subvector sum
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.10}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.13 	Invariants
-                
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.11}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.14 	Huffman 
-              encoding
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.12}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.15 Graph 
-           theory
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.13}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.16 	Dynamic 
-              graphs (extra book-keeping)
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.14}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.17 	Breadth 
-              first search
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.15}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.18 	Depth 
-            first search
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.16}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19 	* 
-        Normal trees / DFS trees
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.17}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.20 	Dijkstra'
-               s algorithm
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.18}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.21 	MST:
-           Prim's algorithm
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.19}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.22 	Bellman-
-              Ford
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.20}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.23 	Konig'
-            s theorem and vertex cover
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.21}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 	Min-
-          cost max flow
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.22}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.25 	Lovasz 
-             toggle
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.23}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.26 	Matrix 
-             tree theorem
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.24}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27 	Maximal 
-              matching, general graphs
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.25}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.28 	Hopcroft-
-               Karp
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.26}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29 	Hall'
-           s marriage theorem
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.27}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.30 	Graphical 
-                sequences
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.28}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.31 	Floyd-
-            Warshall
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.29}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.32 	Euler 
-            cycles
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.30}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.33 	Flow 
-           networks
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.31}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.34 	* 
-        Augmenting paths
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.33}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.36 	Bipartite 
-                matching
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.34}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.37 	Min.
-           path cover
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1.1.35}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.38 	Topological 
-                  sorting))
-runsystem(python3 content/tex/preprocessor.py --print-header "|techniques.txt" -o build/header2.tmp)...executed.
-
- (./build/header2.tmp) [24]
+ (./build/header2.tmp) [25]
 \tf@ptc=\write5
 \openout5 = `kactl.ptc'.
 
@@ -1628,21 +1471,21 @@ Package rerunfilecheck Warning: File `kactl.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `kactl.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  AACBA284B87DC23A70B9A6F7E66CAE7B;1034.
+(rerunfilecheck)             After:  0A994DD22D2E328678F78FBF1CF79F6A;973.
  ) 
 Here is how much of TeX's memory you used:
- 20724 strings out of 479719
- 317531 string characters out of 5880574
- 2052781 words of memory out of 5000000
- 34510 multiletter control sequences out of 15000+600000
- 481767 words of font info for 75 fonts, out of 8000000 for 9000
+ 20391 strings out of 479719
+ 314353 string characters out of 5880574
+ 2013781 words of memory out of 5000000
+ 34031 multiletter control sequences out of 15000+600000
+ 482076 words of font info for 76 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,16n,77p,682b,2205s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/mabook/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </Users/mabook/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk>{/usr/local/texlive/2022basic/texmf-dist/fonts/enc/dvips/base/8r.enc} </Users/mabook/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti0700.600pk></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on build//kactl.pdf (25 pages, 2386200 bytes).
+ 75i,16n,77p,682b,2204s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/mabook/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </Users/mabook/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk>{/usr/local/texlive/2022basic/texmf-dist/fonts/enc/dvips/base/8r.enc} </Users/mabook/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti0700.600pk></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on build//kactl.pdf (26 pages, 2407285 bytes).
 PDF statistics:
- 5049 PDF objects out of 5155 (max. 8388607)
- 4756 compressed objects within 48 object streams
- 3615 named destinations out of 4296 (max. 500000)
+ 5225 PDF objects out of 6186 (max. 8388607)
+ 4927 compressed objects within 50 object streams
+ 3753 named destinations out of 4296 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

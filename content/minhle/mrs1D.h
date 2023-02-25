@@ -4,7 +4,7 @@
  * License: CC0
  * Source: Wikipedia
  * Description: Max 1-D range sum, DP
- * Time: O(n)
+ * Time: O(N^{2}) 
  * Status: 
  */
 
